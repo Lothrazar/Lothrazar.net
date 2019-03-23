@@ -1,6 +1,6 @@
   
 
-ng build --prod --base-href /
+ng build --prod --base-href lothrazar.github.io
 
 cd dist/lothrazarpages
 
