@@ -7,6 +7,8 @@
 </div> 
 
 
-<div *ngFor="let mod of mods" >
-  <app-mcmod  *ngIf="!mod.hidden" fxLayout="row" fxLayoutAlign="space-between" [mod]="mod">  </app-mcmod>
+<div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+  <ng-container *ngFor="let mod of mods" >
+    <app-mcmod  fxFlex="0 1 calc(33.3% - 32px)" *ngIf="!mod.hidden" [mod]="mod"></app-mcmod>
+  </ng-container>
 </div>
