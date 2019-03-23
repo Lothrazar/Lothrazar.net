@@ -7,8 +7,17 @@
 </div> 
 
 
-<div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+<div 
+  fxLayout="row wrap" 
+  fxLayout.lt-sm="column" 
+  fxLayoutGap="32px" 
+  fxLayoutAlign="flex-start">
   <ng-container *ngFor="let mod of mods" >
-    <app-mcmod  fxFlex="0 1 calc(33.3% - 32px)" *ngIf="!mod.hidden" [mod]="mod"></app-mcmod>
+    <app-mcmod  
+    *ngIf="!mod.hidden" 
+    fxFlex="0 1 calc(33.3% - 32px)" 
+    fxFlex.lt-md="0 1 calc(50% - 32px)"
+    fxFlex.lt-sm="100%"
+    [mod]="mod"></app-mcmod>
   </ng-container>
 </div>
