@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lothrazarpages';
+  title = 'Mods by Lothrazar';
 
   mods: IModPage[] = [
     {
@@ -41,7 +41,7 @@ export class AppComponent {
     },
     {
       id: 246973,
-      name: 'Creeper Heal - Unofficial',
+      name: 'Creeper Heal',
       curse: 'https://minecraft.curseforge.com/projects/forge-creeper-heal-unofficial',
       tracker: 'https://github.com/PrinceOfAmber/ForgeCreeperHeal'
     },

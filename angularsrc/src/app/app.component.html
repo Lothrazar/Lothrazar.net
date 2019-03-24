@@ -1,16 +1,11 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}! 
-  </h1>
-  <img width="300" alt="Logo" src="/assets/logo.png">
-</div> 
+<section class='header'>
+  {{ title }}
+</section> 
 
 
 <div 
-  fxLayout="row wrap" 
-  fxLayout.lt-sm="column" 
-  fxLayoutGap="32px" 
+  fxLayout="column wrap" 
+  fxLayoutGap="16px" 
   fxLayoutAlign="flex-start">
   <ng-container *ngFor="let mod of mods" >
     <app-mcmod  
