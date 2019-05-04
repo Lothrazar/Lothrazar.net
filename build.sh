@@ -10,7 +10,7 @@ cd dist/lothrazarpages
 
 ls
 
-mv * ../../../
+cp * ../../../
 
 echo "view index.html for testing"
 
