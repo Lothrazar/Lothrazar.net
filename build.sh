@@ -1,17 +1,22 @@
 #!/bin/bash
 
 # run from root
+
+
 cd angularsrc
 
+#echo "build"
 ng build --prod --base-href lothrazar.github.io
 
 #echo "deploy dist"
 cd dist/lothrazarpages
 
 ls
+# TODO? delete all js, css, from root?
 
-cp * ../../../
+cp -r * ../../../
 
-echo "view index.html for testing"
-
+echo " ***** "
+echo "Build complete; view index.html"
+echo " ***** "
 
