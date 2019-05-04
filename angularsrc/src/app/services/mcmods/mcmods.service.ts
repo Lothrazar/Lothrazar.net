@@ -88,7 +88,26 @@ export class McmodsService {
       name: 'EmberRoot Zoo',
       curse: 'https://minecraft.curseforge.com/projects/emberroot-zoo',
       tracker: 'https://github.com/PrinceOfAmber/ERZ/issues'
-    }];
+    },
+    {
+      id: 320757,
+      name: 'Anti Bonemeal',
+      curse: 'https://minecraft.curseforge.com/projects/anti-bonemeal',
+      tracker: 'https://github.com/Lothrazar/AntiBonemeal/issues'
+    },
+    {
+      id: 232166,
+      name: 'Biome Growth Control',
+      curse: 'https://minecraft.curseforge.com/projects/restricted-saplings',
+      tracker: 'https://github.com/LothrazarMinecraftMods/SaplingGrowthControl/issues'
+    },
+    {
+      id: 320706,
+      name: 'Arrow Harvest',
+      curse: 'https://minecraft.curseforge.com/projects/arrow-harvest',
+      tracker: 'https://github.com/Lothrazar/ChorusArrow/issues'
+    }
+    ];
     return mods;
   }
 }
