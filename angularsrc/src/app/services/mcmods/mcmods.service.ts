@@ -73,13 +73,11 @@ export class McmodsService {
     },
     {
       id: 307605,
-      hidden: true,
       name: 'Giant Player Boss',
       curse: 'https://minecraft.curseforge.com/projects/giant-player-boss' 
     },
     {
       id: 313919,
-      hidden: true,
       name: 'SSN Addon',
       curse: 'https://minecraft.curseforge.com/projects/simple-cables-storage-network-addon'
     },
@@ -106,6 +104,12 @@ export class McmodsService {
       name: 'Arrow Harvest',
       curse: 'https://minecraft.curseforge.com/projects/arrow-harvest',
       tracker: 'https://github.com/Lothrazar/ChorusArrow/issues'
+    },
+    {
+      id: 324307,
+      name: 'Tamed Respawn',
+      curse: 'https://minecraft.curseforge.com/projects/tamedrespawn',
+      tracker: 'https://github.com/Lothrazar/TamedRespawn/issues'
     }
     ];
     return mods;
