@@ -17,6 +17,10 @@ export class WidgetGithubComponent implements OnInit {
 
   getIssues() {
     console.log('get'); 
+    //MAKE INTERFACE for response
+    // SERVICE. and toggle between mock mode responses and non
+    // COUNT HOW MANY HAVE NO LABELS at all . and count total  
+    // COUNT how many have "assignees" > 0
     this.http.get('https://api.github.com/repos/lothrazar/' + this.mod.githubId + '/issues?page=0&per_page=100')
     .subscribe((data) => this.onLoadIssues(data), (error) => this.onFailIssues(error));
   }
