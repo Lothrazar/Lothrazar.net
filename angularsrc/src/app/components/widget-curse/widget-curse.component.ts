@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./widget-curse.component.css']
 })
 export class WidgetCurseComponent implements OnInit {
-  @Input() private mod: IModPage;
+  @Input() mod: IModPage;
 
   constructor() { 
   }

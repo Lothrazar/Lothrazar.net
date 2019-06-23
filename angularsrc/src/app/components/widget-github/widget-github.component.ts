@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./widget-github.component.css']
 })
 export class WidgetGithubComponent implements OnInit {
-  @Input() private mod: IModPage;
+  @Input() mod: IModPage;
   issues = null;
 
   constructor(private http:HttpClient) { }

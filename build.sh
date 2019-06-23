@@ -2,8 +2,8 @@
 
 # run from root
 
-rm *.js
-rm *.css
+rm -f *.js
+rm -f *.css
 
 cd angularsrc
 
