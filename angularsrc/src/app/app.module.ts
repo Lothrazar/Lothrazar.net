@@ -4,11 +4,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import { McmodComponent } from './components/mcmod/mcmod.component';
 import { McmodsService } from './services/mcmods/mcmods.service';
+import { IconGithubComponent } from './components/icon-github/icon-github.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    McmodComponent
+    McmodComponent,
+    IconGithubComponent
   ],
   imports: [
     BrowserModule,
