@@ -1,8 +1,8 @@
 interface IModPage {
-    id: number;
+    curseId: number;
     name: string;
-    curse: string;
-    tracker?: string;
+    curseTag: string;
+    githubId: string;
     hidden?: boolean;
     crafttweaker?: boolean;
 }
