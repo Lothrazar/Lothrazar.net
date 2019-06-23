@@ -8,6 +8,7 @@ import { McmodsService } from './services/mcmods/mcmods.service';
 import { IconGithubComponent } from './components/icon-github/icon-github.component';
 import { WidgetCurseComponent } from './components/widget-curse/widget-curse.component';
 import { WidgetGithubComponent } from './components/widget-github/widget-github.component';
+import { GithubService } from './services/github/github.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { WidgetGithubComponent } from './components/widget-github/widget-github.
     HttpClientModule,
     FlexLayoutModule
   ],
-  providers: [McmodsService],
+  providers: [McmodsService, GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

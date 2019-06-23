@@ -117,45 +117,4 @@ export class McmodsService {
     return mods;
   }
 
-
-
-
-
-
-   
-  
-  mockIssues = [
-    {
-      "url": "https://api.github.com/repos/Lothrazar/Cyclic/issues/1177",
-      "repository_url": "https://api.github.com/repos/Lothrazar/Cyclic",
-      "labels_url": "https://api.github.com/repos/Lothrazar/Cyclic/issues/1177/labels{/name}",
-      "comments_url": "https://api.github.com/repos/Lothrazar/Cyclic/issues/1177/comments",
-      "events_url": "https://api.github.com/repos/Lothrazar/Cyclic/issues/1177/events",
-      "html_url": "https://github.com/Lothrazar/Cyclic/issues/1177",
-      "id": 459481997,
-      "node_id": "=",
-      "number": 1177,
-      "title": "CTITLE",
-      "user": {
-        "login": ""
-      },
-      "labels": [
-  
-      ],
-      "state": "open",
-      "locked": false,
-      "assignee": null,
-      "assignees": [
-  
-      ],
-      "milestone": null,
-      "comments": 4,
-      "created_at": "2019-06-22T14:59:40Z",
-      "updated_at": "2019-06-22T21:05:43Z",
-      "closed_at": null,
-      "author_association": "NONE",
-      "body": "body"
-    }
-  ];
-
 }

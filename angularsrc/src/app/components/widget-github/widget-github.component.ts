@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { GithubService } from 'src/app/services/github/github.service';
 
 @Component({
   selector: 'app-widget-github',
@@ -8,31 +8,43 @@ import { HttpClient } from '@angular/common/http';
 })
 export class WidgetGithubComponent implements OnInit {
   @Input() mod: IModPage;
-  issues = null;
+  issues: GithubIssue[] = null;
 
-  constructor(private http:HttpClient) { }
+  constructor(private githubService:GithubService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
-  getIssues() {
-    console.log('get'); 
+  getIssues(): void {
     //MAKE INTERFACE for response
     // SERVICE. and toggle between mock mode responses and non
     // COUNT HOW MANY HAVE NO LABELS at all . and count total  
     // COUNT how many have "assignees" > 0
-    this.http.get('https://api.github.com/repos/lothrazar/' + this.mod.githubId + '/issues?page=0&per_page=100')
-    .subscribe((data) => this.onLoadIssues(data), (error) => this.onFailIssues(error));
+
+    if(!this.issues) {
+      console.info('Accessing github API...');
+      this.githubService.getIssues(this.mod.githubId)
+        .subscribe((data) => this.onLoadIssues(data), (error) => this.onFailIssues(error));
+    }
+    else {
+      console.info('Issues cached');
+      this.parseIssues();
+    }
+}
+
+  onFailIssues(data): void {
+    console.error('rate limited', data);
   }
 
-  onFailIssues(data) {
-    alert('rate limited');
-  }
-  onLoadIssues(data) {
+  onLoadIssues(data): void {
     console.log(data);
     if(data) {
       this.issues = data;
+      this.parseIssues();
     }
   }
 
+  private parseIssues(): void {
+
+  }
 }
