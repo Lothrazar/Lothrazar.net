@@ -6,13 +6,15 @@ import { McmodComponent } from './components/mcmod/mcmod.component';
 import { McmodsService } from './services/mcmods/mcmods.service';
 import { IconGithubComponent } from './components/icon-github/icon-github.component';
 import { WidgetCurseComponent } from './components/widget-curse/widget-curse.component';
+import { WidgetGithubComponent } from './components/widget-github/widget-github.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     McmodComponent,
     IconGithubComponent,
-    WidgetCurseComponent
+    WidgetCurseComponent,
+    WidgetGithubComponent
   ],
   imports: [
     BrowserModule,

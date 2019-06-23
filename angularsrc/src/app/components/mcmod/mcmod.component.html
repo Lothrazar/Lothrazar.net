@@ -5,11 +5,9 @@
   <section>
     
     <div class='github'>
-      <a href='https://github.com/Lothrazar/{{ mod.githubId }}/issues' target='github'>
-        <app-icon-github></app-icon-github>
-      </a>
+       <app-widget-github [mod]='mod'> </app-widget-github>
     </div>
-      
+    
     <div class='title'>{{ mod.name }}</div>
     
   </section>
