@@ -8,9 +8,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class WidgetCurseComponent implements OnInit {
   @Input() private mod: IModPage;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit() {
   }
-
+ 
 }

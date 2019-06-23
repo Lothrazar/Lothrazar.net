@@ -19,99 +19,99 @@ export class McmodsService {
     {
       curseId: 268495,
       name: 'Simple Storage Network',
-      curseTag: 'https://minecraft.curseforge.com/projects/simple-storage-network',
-      githubId: 'https://github.com/Lothrazar/Storage-Network/issues'
+      curseTag: 'simple-storage-network',
+      githubId: 'Storage-Network'
     },
     {
       curseId: 233659,
       name: 'Similsax Transtructors',
-      curseTag: 'https://minecraft.curseforge.com/projects/similsax-transtructors',
-      githubId: 'https://github.com/PrinceOfAmber/Similsax-Transtructors/issues'
+      curseTag: 'similsax-transtructors',
+      githubId: 'Similsax-Transtructors'
     },
     {
       curseId: 231837,
       name: 'Ocean Floor Control',
-      curseTag: 'https://minecraft.curseforge.com/projects/ocean-floor-clay-sand-and-dirt',
-      githubId: 'https://github.com/PrinceOfAmber/OceanFloorControl/issues'
+      curseTag: 'ocean-floor-clay-sand-and-dirt',
+      githubId: 'OceanFloorControl'
     },
     {
       curseId: 295780,
       crafttweaker: true,
       name: 'Roots Classic',
-      curseTag: 'https://minecraft.curseforge.com/projects/roots-classic',
-      githubId: 'https://github.com/PrinceOfAmber/RootsClassic/issues'
+      curseTag: 'roots-classic',
+      githubId: 'RootsClassic'
     },
     {
       curseId: 305561,
       name: 'Block Layers',
-      curseTag: 'https://minecraft.curseforge.com/projects/block-layers',
-      githubId: 'https://github.com/PrinceOfAmber/DecoLayers/issues'
+      curseTag: 'block-layers',
+      githubId: 'DecoLayers'
     },
     {
       curseId: 305840,
       name: 'Absent by Design',
-      curseTag: 'https://minecraft.curseforge.com/projects/absent-by-design',
-      githubId: 'https://github.com/Lothrazar/AbsentByDesign/issues'
+      curseTag: 'absent-by-design',
+      githubId: 'AbsentByDesign'
     },
     {
       curseId: 275086,
       name: 'Ore Prospectors',
-      curseTag: 'https://minecraft.curseforge.com/projects/ore-prospectors',
-      githubId: 'https://github.com/PrinceOfAmber/Prospectors/issues'
+      curseTag: 'ore-prospectors',
+      githubId: 'Prospectors'
     },
     {
       curseId: 305211,
       name: 'Anger Management',
-      curseTag: 'https://minecraft.curseforge.com/projects/anger-management',
-      githubId: 'https://github.com/PrinceOfAmber/HostileOres/issues'
+      curseTag: 'anger-management',
+      githubId: 'HostileOres'
     },
     {
       curseId: 246973,
       name: 'Creeper Heal',
-      curseTag: 'https://minecraft.curseforge.com/projects/forge-creeper-heal-unofficial',
-      githubId: 'https://github.com/PrinceOfAmber/ForgeCreeperHeal'
+      curseTag: 'forge-creeper-heal-unofficial',
+      githubId: 'ForgeCreeperHeal'
     },
     {
       curseId: 307605,
       name: 'Giant Player Boss',
-      curseTag: 'https://minecraft.curseforge.com/projects/giant-player-boss',
-      githubId: ''
+      curseTag: 'giant-player-boss',
+      githubId: 'giant-player-boss'
     },
     {
       curseId: 313919,
       name: 'SSN Addon',
-      curseTag: 'https://minecraft.curseforge.com/projects/simple-cables-storage-network-addon',
+      curseTag: 'simple-cables-storage-network-addon',
       githubId: ''
     },
     { 
       curseId: 273711,
       name: 'EmberRoot Zoo',
-      curseTag: 'https://minecraft.curseforge.com/projects/emberroot-zoo',
-      githubId: 'https://github.com/PrinceOfAmber/ERZ/issues'
+      curseTag: 'emberroot-zoo',
+      githubId: 'ERZ'
     },
     {
       curseId: 320757,
       name: 'Anti Bonemeal',
-      curseTag: 'https://minecraft.curseforge.com/projects/anti-bonemeal',
-      githubId: 'https://github.com/Lothrazar/AntiBonemeal/issues'
+      curseTag: 'anti-bonemeal',
+      githubId: 'AntiBonemeal'
     },
     {
       curseId: 232166,
       name: 'Biome Growth Control',
-      curseTag: 'https://minecraft.curseforge.com/projects/restricted-saplings',
-      githubId: 'https://github.com/LothrazarMinecraftMods/SaplingGrowthControl/issues'
+      curseTag: 'restricted-saplings',
+      githubId: 'SaplingGrowthControl'
     },
     {
       curseId: 320706,
       name: 'Arrow Harvest',
-      curseTag: 'https://minecraft.curseforge.com/projects/arrow-harvest',
-      githubId: 'https://github.com/Lothrazar/ChorusArrow/issues'
+      curseTag: 'arrow-harvest',
+      githubId: 'ChorusArrow'
     },
     {
       curseId: 324307,
       name: 'Tamed Respawn',
-      curseTag: 'https://minecraft.curseforge.com/projects/tamedrespawn',
-      githubId: 'https://github.com/Lothrazar/TamedRespawn/issues'
+      curseTag: 'tamedrespawn',
+      githubId: 'TamedRespawn'
     }
     ];
     return mods;

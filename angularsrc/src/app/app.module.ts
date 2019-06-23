@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { McmodComponent } from './components/mcmod/mcmod.component';
 import { McmodsService } from './services/mcmods/mcmods.service';
@@ -18,6 +19,7 @@ import { WidgetGithubComponent } from './components/widget-github/widget-github.
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     FlexLayoutModule
   ],
   providers: [McmodsService],
