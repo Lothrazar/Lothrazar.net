@@ -3,8 +3,7 @@ section {
     display: block;
     padding: 32px;
     border: 1px solid black;
-    border-radius: 8px;
-    margin-bottom: 16px;
+    border-radius: 8px;    margin-bottom: 16px;
 
 }
 
@@ -15,12 +14,12 @@ section {
 
 .curse {
     position: relative; 
+    display: inline-block;
 }
 
-.curse a {
+.curse app-widget-curse {
     position: absolute;
     top: 4px;
-    right: 4px;
 }
 
 .github {
