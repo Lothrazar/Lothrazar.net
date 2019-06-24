@@ -9,6 +9,9 @@ import { GithubService } from 'src/app/services/github/github.service';
 export class WidgetGithubComponent implements OnInit {
   @Input() mod: IModPage;
   issues: GithubIssue[] = null;
+  assigned: number;
+  unlabelled: number;
+  uncommented: number;
 
   constructor(private githubService:GithubService) { }
 
@@ -45,6 +48,20 @@ export class WidgetGithubComponent implements OnInit {
   }
 
   private parseIssues(): void {
+    this.assigned = 0;
+    this.unlabelled = 0;
+    this.uncommented = 0;
+    for(var issue of this.issues) {
+      if(issue.labels.length == 0) {
+        this.unlabelled++;
+      }
+      if(issue.assignees.length > 0) {
+        this.assigned++;
+      }
+      if(issue.comments == 0) {
+        this.uncommented++;
+      }
+    }
 
   }
 }

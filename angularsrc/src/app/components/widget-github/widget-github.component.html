@@ -1,7 +1,13 @@
 <a href='https://github.com/Lothrazar/{{ mod.githubId }}/issues' target='github'>
   <app-icon-github></app-icon-github>
 </a>
-<span *ngIf='issues'> {{issues.length}} issues found</span>
-<button (click)='getIssues()' style='height:1px;'>
+<div *ngIf='issues'> 
+  <span>[{{issues.length}} total]</span>
+  <span>[{{assigned}} assigned]</span>
+  <span>[{{unlabelled}} no label]</span>
+  <span>[{{uncommented}} no comments]</span>
+
+</div>
+<button *ngIf='!issues' (click)='getIssues()' style='height:1px;'>
 </button>
 
