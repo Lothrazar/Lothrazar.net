@@ -11,12 +11,16 @@ import { WidgetGithubComponent } from './components/widget-github/widget-github.
 import { GithubService } from './services/github/github.service';
 import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { MinecraftComponent } from './components/minecraft/minecraft.component';
 
 const appRoutes: Routes = [
   { path: '',
-    redirectTo: '/heroes',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
+  { path: 'home', component:HomepageComponent },
+  { path: 'minecraft', component: MinecraftComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -27,7 +31,9 @@ const appRoutes: Routes = [
     IconGithubComponent,
     WidgetCurseComponent,
     WidgetGithubComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomepageComponent,
+    MinecraftComponent
   ],
   imports: [
     RouterModule.forRoot(
