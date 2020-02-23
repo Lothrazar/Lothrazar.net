@@ -15,6 +15,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { MinecraftComponent } from './components/minecraft/minecraft.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AsthmaComponent } from './components/asthma/asthma.component';
 
 const appRoutes: Routes = [
   { path: '',
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
   },
   { path: 'home', component:HomepageComponent },
   { path: 'minecraft', component: MinecraftComponent },
+  { path: 'asthma', component: AsthmaComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -37,7 +39,8 @@ const appRoutes: Routes = [
     HomepageComponent,
     MinecraftComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AsthmaComponent
   ],
   imports: [
     RouterModule.forRoot(
