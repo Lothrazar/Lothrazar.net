@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { McmodsService } from '../../services/mcmods/mcmods.service';
 
 @Component({
   selector: 'app-minecraft',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MinecraftComponent implements OnInit {
 
-  constructor() { }
+  constructor(public modService: McmodsService) {
+  }
 
   ngOnInit() {
   }

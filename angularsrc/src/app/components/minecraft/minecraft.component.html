@@ -1,3 +1,16 @@
 <p>
   minecraft works!
 </p>
+<div
+  fxLayout="column wrap"
+  fxLayoutGap="16px"
+  fxLayoutAlign="flex-start">
+  <ng-container *ngFor="let mod of modService.getMods()" >
+    <app-mcmod
+      *ngIf="!mod.hidden"
+      fxFlex="0 1 calc(33.3% - 32px)"
+      fxFlex.lt-md="0 1 calc(50% - 32px)"
+      fxFlex.lt-sm="100%"
+      [mod]="mod"></app-mcmod>
+  </ng-container>
+</div>
