@@ -16,6 +16,11 @@ import { MinecraftComponent } from './components/minecraft/minecraft.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AsthmaComponent } from './components/asthma/asthma.component';
+import { MatSliderModule,
+ MatButtonModule,
+ MatCheckboxModule
+} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   { path: '',
@@ -43,10 +48,12 @@ const appRoutes: Routes = [
     AsthmaComponent
   ],
   imports: [
+    MatSliderModule,MatButtonModule, MatCheckboxModule,
     RouterModule.forRoot(
       appRoutes//, { enableTracing: true } // <-- debugging purposes only
     ),
     BrowserModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     FlexLayoutModule
   ],
