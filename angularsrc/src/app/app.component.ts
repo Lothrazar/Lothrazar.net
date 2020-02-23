@@ -7,11 +7,11 @@ import { McmodsService } from './services/mcmods/mcmods.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Mods by Lothrazar';
+  title = 'lothrazar.net';
   mods: IModPage[];
 
-  constructor(modService: McmodsService) {  
+  constructor(modService: McmodsService) {
     this.mods = modService.getMods();
   }
-   
+
 }

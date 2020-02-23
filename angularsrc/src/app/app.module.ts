@@ -9,6 +9,16 @@ import { IconGithubComponent } from './components/icon-github/icon-github.compon
 import { WidgetCurseComponent } from './components/widget-curse/widget-curse.component';
 import { WidgetGithubComponent } from './components/widget-github/widget-github.component';
 import { GithubService } from './services/github/github.service';
+import { RouterModule, Routes } from '@angular/router';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+
+const appRoutes: Routes = [
+  { path: '',
+    redirectTo: '/heroes',
+    pathMatch: 'full'
+  },
+  { path: '**', component: PageNotFoundComponent }
+];
 
 @NgModule({
   declarations: [
@@ -16,9 +26,14 @@ import { GithubService } from './services/github/github.service';
     McmodComponent,
     IconGithubComponent,
     WidgetCurseComponent,
-    WidgetGithubComponent
+    WidgetGithubComponent,
+    PageNotFoundComponent
   ],
   imports: [
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    ),
     BrowserModule,
     HttpClientModule,
     FlexLayoutModule
