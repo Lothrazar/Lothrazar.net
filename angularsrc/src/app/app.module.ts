@@ -13,6 +13,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { MinecraftComponent } from './components/minecraft/minecraft.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const appRoutes: Routes = [
   { path: '',
@@ -33,7 +35,9 @@ const appRoutes: Routes = [
     WidgetGithubComponent,
     PageNotFoundComponent,
     HomepageComponent,
-    MinecraftComponent
+    MinecraftComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     RouterModule.forRoot(
