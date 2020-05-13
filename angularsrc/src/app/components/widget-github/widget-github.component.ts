@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { GithubService } from 'src/app/services/github/github.service';
+import { IModPage } from 'src/app/data/IModPage';
 
 @Component({
   selector: 'app-widget-github',
@@ -21,7 +22,7 @@ export class WidgetGithubComponent implements OnInit {
   getIssues(): void {
     //MAKE INTERFACE for response
     // SERVICE. and toggle between mock mode responses and non
-    // COUNT HOW MANY HAVE NO LABELS at all . and count total  
+    // COUNT HOW MANY HAVE NO LABELS at all . and count total
     // COUNT how many have "assignees" > 0
 
     if(!this.issues) {

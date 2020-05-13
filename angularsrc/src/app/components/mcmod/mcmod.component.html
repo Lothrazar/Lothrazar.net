@@ -3,12 +3,12 @@
     <app-widget-curse [mod]='mod'></app-widget-curse>
   </div>
   <section>
-    
+
     <div class='github'>
        <app-widget-github [mod]='mod'> </app-widget-github>
     </div>
-    
-    <div class='title'>{{ mod.name }}</div>
-    
+    <a href='https://minecraft.curseforge.com/projects/{{ mod.curseTag }}' target='curse'>
+      <div class='title'>{{ mod.name }}</div>
+    </a>
   </section>
 </div>

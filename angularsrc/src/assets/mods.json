@@ -1,0 +1,173 @@
+[
+  {
+    "curseId": 239286,
+    "name": "Cyclic",
+    "curseTag": "cyclic",
+    "githubId": "Cyclic",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 268495,
+    "name": "Simple Storage Network",
+    "curseTag": "simple-storage-network",
+    "githubId": "Storage-Network",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 233659,
+    "name": "Similsax Transtructors",
+    "curseTag": "similsax-transtructors",
+    "githubId": "Similsax-Transtructors",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 231837,
+    "name": "Ocean Floor Control",
+    "curseTag": "ocean-floor-clay-sand-and-dirt",
+    "githubId": "OceanFloorControl",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 295780,
+    "name": "Roots Classic",
+    "curseTag": "roots-classic",
+    "githubId": "RootsClassic",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 305561,
+    "name": "Block Layers",
+    "curseTag": "block-layers",
+    "githubId": "DecoLayers",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 305840,
+    "name": "Absent by Design",
+    "curseTag": "absent-by-design",
+    "githubId": "AbsentByDesign",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 275086,
+    "name": "Ore Prospectors",
+    "curseTag": "ore-prospectors",
+    "githubId": "Prospectors",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 305211,
+    "name": "Anger Management",
+    "curseTag": "anger-management",
+    "githubId": "HostileOres",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 246973,
+    "name": "Creeper Heal",
+    "curseTag": "forge-creeper-heal-unofficial",
+    "githubId": "ForgeCreeperHeal",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 307605,
+    "name": "Giant Player Boss",
+    "curseTag": "giant-player-boss",
+    "githubId": "giant-player-boss",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 313919,
+    "name": "SSN Addon",
+    "hidden": true,
+    "curseTag": "simple-cables-storage-network-addon",
+    "githubId": "",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 273711,
+    "name": "EmberRoot Zoo",
+    "curseTag": "emberroot-zoo",
+    "githubId": "ERZ",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 320757,
+    "name": "Anti Bonemeal",
+    "curseTag": "anti-bonemeal",
+    "githubId": "AntiBonemeal",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 232166,
+    "name": "Biome Growth Control",
+    "curseTag": "restricted-saplings",
+    "githubId": "SaplingGrowthControl",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 320706,
+    "hidden": true,
+    "name": "Arrow Harvest",
+    "curseTag": "arrow-harvest",
+    "githubId": "ChorusArrow",
+    "versions": []
+  },
+  {
+    "curseId": 324307,
+    "name": "Tamed Respawn",
+    "hidden": true,
+    "curseTag": "tamedrespawn",
+    "githubId": "TamedRespawn",
+    "versions": []
+  },
+  {
+    "curseId": 370777,
+    "name": "Scaffolding behavior",
+    "curseTag": "scaffolding-behavior",
+    "githubId": "LadderPower",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 369028,
+    "name": "Game rules config",
+    "curseTag": "game-rules-config",
+    "githubId": "GameRuleConfig",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 232597,
+    "name": "Inventory Crafting Grid",
+    "curseTag": "inventory-crafting-grid",
+    "githubId": "InventoryCrafting",
+    "versions": ["1.7.10","1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 368921,
+    "name": "Glass Cutters",
+    "curseTag": "glass-cutter",
+    "githubId": "GlassCutter",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 370541,
+    "name": "Lattice Grid Nether Portals",
+    "curseTag": "nether-portal-grid",
+    "githubId": "WorldPortals",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 368534,
+    "name": "Let them grow",
+    "curseTag": "let-them-grow",
+    "githubId": "LetThemGrow",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 368728,
+    "name": "Unbreakable Spawner",
+    "curseTag": "unbreakable-spawner",
+    "githubId": "unbreakable",
+    "versions": ["1.15.2"]
+  }
+]

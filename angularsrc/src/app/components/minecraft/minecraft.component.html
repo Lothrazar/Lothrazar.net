@@ -1,11 +1,12 @@
 <app-header></app-header>
 <p>
-  minecraft works!
+Mod list
 </p>
 <div
   fxLayout="column wrap"
-  fxLayoutGap="16px"
+  fxLayoutGap="8px"
   fxLayoutAlign="flex-start">
+
   <ng-container *ngFor="let mod of modService.getMods()" >
     <app-mcmod
       *ngIf="!mod.hidden"

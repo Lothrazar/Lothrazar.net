@@ -1,8 +1,8 @@
-interface IModPage {
-    curseId: number;
+export interface IModPage {
     name: string;
+    curseId: number;
     curseTag: string;
     githubId: string;
     hidden?: boolean;
-    crafttweaker?: boolean;
+    versions: string[];
 }

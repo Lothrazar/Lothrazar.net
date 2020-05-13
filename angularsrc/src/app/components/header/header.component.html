@@ -1,29 +1,23 @@
 <mat-toolbar color="primary">
-  <span>{{ title }}</span>
+  <a href="https://allmylinks.com/lothrazar">
+    <span>{{ title }}</span>
+  </a>
 
   <span class="example-fill-remaining-space"></span>
 
   <span>
 
   <mat-menu #appMenu="matMenu">
-    <button mat-menu-item>Settings</button>
-    <button mat-menu-item>Help</button>
+    <button routerLink="/home" mat-menu-item>Home</button>
+    <button routerLink="/minecraft" mat-menu-item>Minecraft</button>
+    <button routerLink="/asthma" mat-menu-item>Test</button>
   </mat-menu>
 
   <button mat-icon-button [matMenuTriggerFor]="appMenu">
     <mat-icon>more_vert</mat-icon>
   </button>
 
-
-
-
   </span>
 </mat-toolbar>
-<section class="menu">
-  <a href="https://linktr.ee/lothrazar">Linktree</a>
-  <a routerLink="/home">Home</a>
-  <a routerLink="/minecraft">Minecraft</a>
-  <a routerLink="/asthma">Test app</a>
-<button mat-button>test</button>
 
-</section>
+
