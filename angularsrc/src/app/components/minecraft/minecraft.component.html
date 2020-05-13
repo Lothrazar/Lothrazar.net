@@ -2,17 +2,12 @@
 <p>
 Mod list
 </p>
-<div
-  fxLayout="column wrap"
-  fxLayoutGap="8px"
-  fxLayoutAlign="flex-start">
+<div class="minecraft-container">
 
   <ng-container *ngFor="let mod of modService.getMods()" >
     <app-mcmod
       *ngIf="!mod.hidden"
-      fxFlex="0 1 calc(33.3% - 32px)"
-      fxFlex.lt-md="0 1 calc(50% - 32px)"
-      fxFlex.lt-sm="100%"
+      class="minecraft-item"
       [mod]="mod"></app-mcmod>
   </ng-container>
 </div>

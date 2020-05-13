@@ -1,15 +1,10 @@
 <div class='mod-container'>
-  <div class='curse'>
-    <app-widget-curse [mod]='mod'></app-widget-curse>
+  <div class='github'>
+   <app-widget-github [mod]='mod'> </app-widget-github>
   </div>
-  <section>
-
-    <div class='github'>
-       <app-widget-github [mod]='mod'> </app-widget-github>
-    </div>
-    <a href='https://minecraft.curseforge.com/projects/{{ mod.curseSlug }}' target='curse'>
-      <div class='title'>{{ mod.name }}</div>
-    </a>
-    <div class='versions'>{{ mod.versions }}</div>
-  </section>
-</div>
+  <a href='https://minecraft.curseforge.com/projects/{{ mod.curseSlug }}' target='curse'>
+    <div class='title'>{{ mod.name }}</div>
+  </a>
+  <div class='versions'>{{ mod.versions }}</div>
+  <app-widget-curse [mod]='mod'></app-widget-curse>
+ </div>
