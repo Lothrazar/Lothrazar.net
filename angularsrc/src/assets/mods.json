@@ -1,5 +1,12 @@
 [
   {
+    "curseId": 231867,
+    "name": "Simple Beetroot",
+    "curseTag": "simple-beetroot",
+    "githubId": "SimpleBeetrootMod",
+    "versions": ["1.8.9"]
+  },
+  {
     "curseId": 239286,
     "name": "Cyclic",
     "curseTag": "cyclic",
@@ -18,7 +25,7 @@
     "name": "Similsax Transtructors",
     "curseTag": "similsax-transtructors",
     "githubId": "Similsax-Transtructors",
-    "versions": ["1.12.2"]
+    "versions": ["1.12.2","1.14.4"]
   },
   {
     "curseId": 231837,
@@ -60,7 +67,7 @@
     "name": "Anger Management",
     "curseTag": "anger-management",
     "githubId": "HostileOres",
-    "versions": ["1.12.2","1.15.2"]
+    "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
     "curseId": 246973,
@@ -96,7 +103,7 @@
     "name": "Anti Bonemeal",
     "curseTag": "anti-bonemeal",
     "githubId": "AntiBonemeal",
-    "versions": ["1.12.2","1.15.2"]
+    "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
     "curseId": 232166,
@@ -107,19 +114,17 @@
   },
   {
     "curseId": 320706,
-    "hidden": true,
     "name": "Arrow Harvest",
     "curseTag": "arrow-harvest",
     "githubId": "ChorusArrow",
-    "versions": []
+    "versions": ["1.12.2"]
   },
   {
     "curseId": 324307,
     "name": "Tamed Respawn",
-    "hidden": true,
     "curseTag": "tamedrespawn",
     "githubId": "TamedRespawn",
-    "versions": []
+    "versions": ["1.12.2"]
   },
   {
     "curseId": 370777,
@@ -169,5 +174,68 @@
     "curseTag": "unbreakable-spawner",
     "githubId": "unbreakable",
     "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 333875,
+    "name": "Stronger Farmland",
+    "curseTag": "stronger-farmland",
+    "githubId": "StrongerFarmland",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 358241,
+    "name": "Stupid horse stand still",
+    "curseTag": "stupid-horse-stand-still",
+    "githubId": "stupidHorseStandStill",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 333828,
+    "name": "Cannot build over lava source blocks",
+    "curseTag": "cannot-build-over-lava-source-blocks",
+    "githubId": "NoLavaBuild",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 351990,
+    "name": "Gardening Tools",
+    "curseTag": "gardening-tools",
+    "githubId": "GardenTools",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 231800,
+    "name": "Fragile Torches",
+    "curseTag": "fragile-torches",
+    "githubId": "FragileTorches",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 332609,
+    "name": "elementary ores",
+    "curseTag": "elementary-ores",
+    "githubId": "elementary-ores",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 348584,
+    "name": "Auto Sprint",
+    "curseTag": "auto-sprint",
+    "githubId": "AutoRun",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 232795,
+    "name": "Mounted ender pearl",
+    "curseTag": "mounted-pearl-bring-your-mount-along-when-you",
+    "githubId": "MountedPearl",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 350696,
+    "name": "Stacking Dimensional Rifts",
+    "curseTag": "dimension-stacking-rifts",
+    "githubId": "DimStacker",
+    "versions": ["1.12.2"]
   }
 ]
