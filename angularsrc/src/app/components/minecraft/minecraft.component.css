@@ -1,17 +1,10 @@
 
 .minecraft-container {
   display: flex;
-  flex-flow: row wrap;
-  align-content: flex-start;
-  list-style: none;
-
-  padding: 0;
-  margin: 0;
+  flex-flow: column wrap;
 }
 
-
 .minecraft-item {
-  padding: 5px;
-  margin-bottom: 3px;
-  width: 300px;
+  padding: 4px;
+  width: 100%;
 }

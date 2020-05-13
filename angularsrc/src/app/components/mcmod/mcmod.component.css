@@ -1,18 +1,21 @@
 
 .mod-container {
-  height: 250px;
+  height: 60px;
   border: 1px solid black;
-  border-radius: 8px;
+  border-radius: 12px;
+  padding: 6px;
 }
 
 .title {
-    font-size: 24pt;
-    display: inline-block;
+  display: inline-block;
+  font-size: 24pt;
 }
 
-
-
 .github {
-    display: inline-block;
-    margin-right: 8px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.versions {
+  display: inline-block;
 }
