@@ -4,7 +4,7 @@ Mod list 1.12.2,1.14.4,1.15.2
 </p>
 <div class="minecraft-container">
 
-  <ng-container *ngFor="let mod of modService.getMods()" >
+  <ng-container *ngFor="let mod of mods" >
     <app-mcmod
       *ngIf="!mod.hidden"
       class="minecraft-item"

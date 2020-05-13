@@ -8,10 +8,17 @@ import { McmodsService } from '../../services/mcmods/mcmods.service';
 })
 export class MinecraftComponent implements OnInit {
 
-  constructor(public modService: McmodsService) {
+  mods:  IModPage[];
+  constructor(modService: McmodsService) {
+    this.mods = modService.getMods();
+    this.sortByName();
   }
 
   ngOnInit() {
+  }
+
+  sortByName() {
+    this.mods.sort((a,b) => a.name.localeCompare(b.name));
   }
 
 }
