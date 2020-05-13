@@ -1,18 +1,16 @@
 
 .minecraft-container {
-display:flex;
+  display: flex;
   flex-flow: row wrap;
-
-  /* Then we define how is distributed the remaining space */
-  justify-content: space-around;
+  align-content: flex-start;
+  list-style: none;
 
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 
 
-.minecraft-item{
+.minecraft-item {
   padding: 5px;
   margin-bottom: 3px;
   width: 300px;
