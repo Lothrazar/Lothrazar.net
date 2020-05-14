@@ -1,3 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.version-1710 {
+  background: gray;
+  color: white;
+}
+
+.version-189 {
+  background: tomato;
+  color: white;
+}
+
+.version-12 {
+  background: #270b8c;
+  color: white;
+}
+
+.version-14 {
+  background: green;
+  color: white;
+}
+
+.version-15 {
+  background: purple;
+  color: white;
+}
+
+

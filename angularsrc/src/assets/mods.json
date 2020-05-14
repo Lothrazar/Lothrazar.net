@@ -150,7 +150,7 @@
     "name": "Inventory Crafting Grid",
     "curseSlug": "inventory-crafting-grid",
     "githubId": "InventoryCrafting",
-    "versions": ["1.7.10","1.12.2","1.15.2"]
+    "versions": ["1.7.10","1.8.9","1.12.2","1.15.2"]
   },
   {
     "curseId": 368921,
@@ -213,7 +213,7 @@
     "name": "Fragile Torches",
     "curseSlug": "fragile-torches",
     "githubId": "FragileTorches",
-    "versions": ["1.14.4","1.15.2"]
+    "versions": ["1.7.10","1.8.9","1.14.4","1.15.2"]
   },
   {
     "curseId": 332609,

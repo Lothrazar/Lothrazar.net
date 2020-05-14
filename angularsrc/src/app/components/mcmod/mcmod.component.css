@@ -19,3 +19,10 @@
 .versions {
   display: inline-block;
 }
+
+.version {
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+  width: 70px;
+}
