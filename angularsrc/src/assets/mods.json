@@ -2,6 +2,7 @@
   {
     "curseId": 231867,
     "name": "Simple Beetroot",
+    "legacy": true,
     "curseSlug": "simple-beetroot",
     "githubId": "SimpleBeetrootMod",
     "versions": ["1.8.9"]
@@ -79,6 +80,7 @@
   {
     "curseId": 307605,
     "name": "Giant Player Boss",
+    "legacy": true,
     "curseSlug": "giant-player-boss",
     "githubId": "giant-player-boss",
     "versions": ["1.12.2"]
@@ -87,6 +89,7 @@
     "curseId": 313919,
     "name": "SSN Addon",
     "hidden": true,
+    "legacy": true,
     "curseSlug": "simple-cables-storage-network-addon",
     "githubId": "",
     "versions": ["1.12.2"]
@@ -103,6 +106,7 @@
     "name": "Anti Bonemeal",
     "curseSlug": "anti-bonemeal",
     "githubId": "AntiBonemeal",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/202/144/64/64/636924514898907681.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -115,6 +119,7 @@
   {
     "curseId": 320706,
     "name": "Arrow Harvest",
+    "legacy": true,
     "curseSlug": "arrow-harvest",
     "githubId": "ChorusArrow",
     "versions": ["1.12.2"]
@@ -212,7 +217,7 @@
   },
   {
     "curseId": 332609,
-    "name": "elementary ores",
+    "name": "Elementary ores",
     "curseSlug": "elementary-ores",
     "githubId": "elementary-ores",
     "versions": ["1.14.4","1.15.2"]

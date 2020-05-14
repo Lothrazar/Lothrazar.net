@@ -2,13 +2,12 @@
   <div class='github'>
    <app-widget-github [mod]='mod'> </app-widget-github>
   </div>
-  <div class='title'>{{ mod.name }}</div>
-  <div>
+  <div class='title'>
     <a href='https://minecraft.curseforge.com/projects/{{ mod.curseSlug }}' target='curse'>
-
+      {{ mod.name }}
     </a>
   </div>
-
+  <div></div>
   <app-widget-curse [mod]='mod'></app-widget-curse>
   <div class='versions'>{{ mod.versions }}</div>
  </div>

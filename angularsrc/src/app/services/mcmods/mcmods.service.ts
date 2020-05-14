@@ -6,11 +6,19 @@ import mods from 'src/assets/mods.json';
   providedIn: 'root'
 })
 export class McmodsService {
+  modList:  IModPage[];
 
-  constructor() { }
+  constructor() {
+    for(var m in mods) {
+      //
+      for(var vers in mods.versions){
+      }
+    }
+    this.modList = mods;
+  }
 
   getMods(): IModPage[] {
-    return mods;
+    return this.modList;
   }
 
 }

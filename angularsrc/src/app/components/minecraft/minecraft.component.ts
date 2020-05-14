@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { McmodsService } from '../../services/mcmods/mcmods.service';
+import { McmodsService } from 'src/app/services/mcmods/mcmods.service';
+import { IModPage } from 'src/app/data/IModPage';
 
 @Component({
   selector: 'app-minecraft',

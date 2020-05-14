@@ -8,3 +8,26 @@
   padding: 4px;
   width: 100%;
 }
+
+.version {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 70px;
+}
+
+.version-12 {
+  background: #270b8c;
+  color: white;
+}
+
+.version-14 {
+  background: green;
+  color: white;
+}
+
+.version-15 {
+  background: purple;
+  color: white;
+}
+

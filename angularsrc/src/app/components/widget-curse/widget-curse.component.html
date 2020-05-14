@@ -1,5 +1,9 @@
-<a href='https://minecraft.curseforge.com/projects/{{ mod.curseTag }}' target='curse'>
-
+<a href='https://minecraft.curseforge.com/projects/{{ mod.curseSlug }}' target='curse'>
   <!--  <img src='https://cf.way2muchnoise.eu/{{ mod.curseId }}.svg'/>-->
-  {{ mod.curseId }}
+  <ng-container *ngIf="mod.logo">
+    <img src="{{ mod.logo }}" style="width:16px" title="{{mod.curseId}}"/>
+  </ng-container>
+  <ng-container *ngIf="!mod.logo">
+    {{ mod.curseId }}
+  </ng-container>
 </a>
