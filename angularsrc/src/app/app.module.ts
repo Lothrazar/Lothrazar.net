@@ -16,9 +16,8 @@ import { MinecraftComponent } from './components/minecraft/minecraft.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AsthmaComponent } from './components/asthma/asthma.component';
-import{MaterialModule} from './material/material.module';
-
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   { path: '',

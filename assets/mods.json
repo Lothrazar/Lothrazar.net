@@ -1,0 +1,246 @@
+[
+  {
+    "curseId": 231867,
+    "name": "Simple Beetroot",
+    "legacy": true,
+    "curseSlug": "simple-beetroot",
+    "githubId": "SimpleBeetrootMod",
+    "versions": ["1.8.9"]
+  },
+  {
+    "curseId": 239286,
+    "name": "Cyclic",
+    "curseSlug": "cyclic",
+    "githubId": "Cyclic",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 268495,
+    "name": "Simple Storage Network",
+    "curseSlug": "simple-storage-network",
+    "githubId": "Storage-Network",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 233659,
+    "name": "Similsax Transtructors",
+    "curseSlug": "similsax-transtructors",
+    "githubId": "Similsax-Transtructors",
+    "versions": ["1.12.2","1.14.4"]
+  },
+  {
+    "curseId": 231837,
+    "name": "Ocean Floor Control",
+    "curseSlug": "ocean-floor-clay-sand-and-dirt",
+    "githubId": "OceanFloorControl",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 295780,
+    "name": "Roots Classic",
+    "curseSlug": "roots-classic",
+    "githubId": "RootsClassic",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 305561,
+    "name": "Block Layers",
+    "curseSlug": "block-layers",
+    "githubId": "DecoLayers",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 305840,
+    "name": "Absent by Design",
+    "curseSlug": "absent-by-design",
+    "githubId": "AbsentByDesign",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 275086,
+    "name": "Ore Prospectors",
+    "curseSlug": "ore-prospectors",
+    "githubId": "Prospectors",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 305211,
+    "name": "Anger Management",
+    "curseSlug": "anger-management",
+    "githubId": "HostileOres",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 246973,
+    "name": "Creeper Heal",
+    "curseSlug": "forge-creeper-heal-unofficial",
+    "githubId": "ForgeCreeperHeal",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 307605,
+    "name": "Giant Player Boss",
+    "legacy": true,
+    "curseSlug": "giant-player-boss",
+    "githubId": "giant-player-boss",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 313919,
+    "name": "SSN Addon",
+    "hidden": true,
+    "legacy": true,
+    "curseSlug": "simple-cables-storage-network-addon",
+    "githubId": "",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 273711,
+    "name": "EmberRoot Zoo",
+    "curseSlug": "emberroot-zoo",
+    "githubId": "ERZ",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 320757,
+    "name": "Anti Bonemeal",
+    "curseSlug": "anti-bonemeal",
+    "githubId": "AntiBonemeal",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/202/144/64/64/636924514898907681.png",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 232166,
+    "name": "Biome Growth Control",
+    "curseSlug": "restricted-saplings",
+    "githubId": "SaplingGrowthControl",
+    "versions": ["1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 320706,
+    "name": "Arrow Harvest",
+    "legacy": true,
+    "curseSlug": "arrow-harvest",
+    "githubId": "ChorusArrow",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 324307,
+    "name": "Tamed Respawn",
+    "curseSlug": "tamedrespawn",
+    "githubId": "TamedRespawn",
+    "versions": ["1.12.2"]
+  },
+  {
+    "curseId": 370777,
+    "name": "Scaffolding behavior",
+    "curseSlug": "scaffolding-behavior",
+    "githubId": "LadderPower",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 369028,
+    "name": "Game rules config",
+    "curseSlug": "game-rules-config",
+    "githubId": "GameRuleConfig",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 232597,
+    "name": "Inventory Crafting Grid",
+    "curseSlug": "inventory-crafting-grid",
+    "githubId": "InventoryCrafting",
+    "versions": ["1.7.10","1.8.9","1.12.2","1.15.2"]
+  },
+  {
+    "curseId": 368921,
+    "name": "Glass Cutters",
+    "curseSlug": "glass-cutter",
+    "githubId": "GlassCutter",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 370541,
+    "name": "Lattice Grid Nether Portals",
+    "curseSlug": "nether-portal-grid",
+    "githubId": "WorldPortals",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 368534,
+    "name": "Let them grow",
+    "curseSlug": "let-them-grow",
+    "githubId": "LetThemGrow",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 368728,
+    "name": "Unbreakable Spawner",
+    "curseSlug": "unbreakable-spawner",
+    "githubId": "unbreakable",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 333875,
+    "name": "Stronger Farmland",
+    "curseSlug": "stronger-farmland",
+    "githubId": "StrongerFarmland",
+    "versions": ["1.15.2"]
+  },
+  {
+    "curseId": 358241,
+    "name": "Stupid horse stand still",
+    "curseSlug": "stupid-horse-stand-still",
+    "githubId": "stupidHorseStandStill",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 333828,
+    "name": "Cannot build over lava source blocks",
+    "curseSlug": "cannot-build-over-lava-source-blocks",
+    "githubId": "NoLavaBuild",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 351990,
+    "name": "Gardening Tools",
+    "curseSlug": "gardening-tools",
+    "githubId": "GardenTools",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 231800,
+    "name": "Fragile Torches",
+    "curseSlug": "fragile-torches",
+    "githubId": "FragileTorches",
+    "versions": ["1.7.10","1.8.9","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 332609,
+    "name": "Elementary ores",
+    "curseSlug": "elementary-ores",
+    "githubId": "elementary-ores",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 348584,
+    "name": "Auto Sprint",
+    "curseSlug": "auto-sprint",
+    "githubId": "AutoRun",
+    "versions": ["1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 232795,
+    "name": "Mounted ender pearl",
+    "curseSlug": "mounted-pearl-bring-your-mount-along-when-you",
+    "githubId": "MountedPearl",
+    "versions": ["1.12.2","1.14.4","1.15.2"]
+  },
+  {
+    "curseId": 350696,
+    "name": "Stacking Dimensional Rifts",
+    "curseSlug": "dimension-stacking-rifts",
+    "githubId": "DimStacker",
+    "versions": ["1.12.2"]
+  }
+]

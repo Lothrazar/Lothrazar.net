@@ -11,7 +11,7 @@ import {MatButtonToggleModule} from '@angular/material';
 export class MinecraftComponent implements OnInit {
 
   private group: string = null;
-  public mods:  IModPage[];
+  public mods: IModPage[];
   constructor(public modService: McmodsService) {
     this.mods = modService.getMods();
     this.sortByName();

@@ -7,7 +7,7 @@ import mods from 'src/assets/mods.json';
 })
 export class McmodsService {
   modList: IModPage[];
-  modMap: Map<string, IModPage[]> = {};
+  modMap = {}; // Map<string, IModPage[]> = {};
 
   constructor() {
     for(const i in mods) {
@@ -30,5 +30,4 @@ export class McmodsService {
   getVersionMods(vers: string): IModPage[] {
     return this.modMap[vers];
   }
-
 }

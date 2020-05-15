@@ -1,5 +1,5 @@
 <mat-toolbar color="primary" class="main-toolbar">
-  <a href="https://allmylinks.com/lothrazar">
+  <a href="/">
     <span>{{ title }}</span>
   </a>
 
@@ -13,6 +13,9 @@
     <button routerLink="/asthma" mat-menu-item>Test</button>
   </mat-menu>
 
+  <button mat-icon-button (click)="getWindow().open('https://allmylinks.com/lothrazar','links')">
+    <mat-icon>home</mat-icon>
+  </button>
   <button mat-icon-button [matMenuTriggerFor]="appMenu">
     <mat-icon>more_vert</mat-icon>
   </button>
