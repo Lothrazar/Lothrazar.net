@@ -6,12 +6,18 @@ import mods from 'src/assets/mods.json';
   providedIn: 'root'
 })
 export class McmodsService {
-  modList:  IModPage[];
+  modList: IModPage[];
+  modMap: Map<string, IModPage[]> = {};
 
   constructor() {
-    for(var m in mods) {
-      //
-      for(var vers in mods.versions){
+    for(const i in mods) {
+      const m = mods[i];
+      for(const j in m.versions) {
+        const vers = m.versions[j];
+        if(!this.modMap[vers]) {
+          this.modMap[vers] = [];
+        }
+        this.modMap[vers].push(m);
       }
     }
     this.modList = mods;
@@ -19,6 +25,10 @@ export class McmodsService {
 
   getMods(): IModPage[] {
     return this.modList;
+  }
+
+  getVersionMods(vers: string): IModPage[] {
+    return this.modMap[vers];
   }
 
 }

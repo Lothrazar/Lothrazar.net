@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { McmodsService } from 'src/app/services/mcmods/mcmods.service';
 import { IModPage } from 'src/app/data/IModPage';
+import {MatButtonToggleModule} from '@angular/material';
 
 @Component({
   selector: 'app-minecraft',
@@ -9,17 +10,27 @@ import { IModPage } from 'src/app/data/IModPage';
 })
 export class MinecraftComponent implements OnInit {
 
-  mods:  IModPage[];
-  constructor(modService: McmodsService) {
+  private group: string = null;
+  public mods:  IModPage[];
+  constructor(public modService: McmodsService) {
     this.mods = modService.getMods();
     this.sortByName();
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
-  sortByName() {
+  sortByName(): void {
     this.mods.sort((a,b) => a.name.localeCompare(b.name));
   }
 
+  onChange($event): void {
+    this.group = $event.value;
+    if(this.group) {
+      this.mods = this.modService.getVersionMods(this.group);
+    }
+    else {
+      this.mods = this.modService.getMods();
+    }
+  }
 }
