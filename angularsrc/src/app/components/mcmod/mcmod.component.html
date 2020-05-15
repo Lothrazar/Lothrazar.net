@@ -7,21 +7,22 @@
       {{ mod.name }}
     </a>
   </div>
-  <div></div>
 <!--  <app-widget-curse [mod]='mod'></app-widget-curse>-->
-  <div *ngIf="mod.versions.includes('1.7.10');" class="version version-1710">
-    1.7.10
-  </div>
-  <div *ngIf="mod.versions.includes('1.8.9');" class="version version-189">
-    1.8.9
-  </div>
-  <div *ngIf="mod.versions.includes('1.12.2');" class="version version-12">
-    1.12.2
-  </div>
-  <div *ngIf="mod.versions.includes('1.14.4');" class="version version-14">
-    1.14.4
-  </div>
-  <div *ngIf="mod.versions.includes('1.15.2');" class="version version-15">
-    1.15.2
+  <div style="float:right">
+    <div *ngIf="mod.versions.includes('1.7.10');" class="version version-1710">
+      1.7.10
+    </div>
+    <div *ngIf="mod.versions.includes('1.8.9');" class="version version-189">
+      1.8.9
+    </div>
+    <div *ngIf="mod.versions.includes('1.12.2');" class="version version-12">
+      1.12.2
+    </div>
+    <div *ngIf="mod.versions.includes('1.14.4');" class="version version-14">
+      1.14.4
+    </div>
+    <div *ngIf="mod.versions.includes('1.15.2');" class="version version-15">
+      1.15.2
+    </div>
   </div>
  </div>

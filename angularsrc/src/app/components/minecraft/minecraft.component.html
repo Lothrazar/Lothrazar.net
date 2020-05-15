@@ -1,15 +1,14 @@
 <app-header></app-header>
-<div>
-  <mat-button-toggle-group aria-label="Version Filter"
-   (change)="onChange($event)">
-    <mat-button-toggle value="1.7.10" class="version-1710">1.7.10</mat-button-toggle>
-    <mat-button-toggle value="1.8.9" class="version-189">1.8.9</mat-button-toggle>
-    <mat-button-toggle value="1.12.2" class="version-12">1.12.2</mat-button-toggle>
-    <mat-button-toggle value="1.14.4" class="version-14">1.14.4</mat-button-toggle>
-    <mat-button-toggle value="1.15.2" class="version-15">1.15.2</mat-button-toggle>
-  </mat-button-toggle-group>
-<!--  {{this.group}}-->
-</div>
+
+<mat-button-toggle-group aria-label="Version Filter"
+ (change)="onChange($event)">
+  <mat-button-toggle value="1.7.10" class="version-1710">1.7.10</mat-button-toggle>
+  <mat-button-toggle value="1.8.9" class="version-189">1.8.9</mat-button-toggle>
+  <mat-button-toggle value="1.12.2" class="version-12">1.12.2</mat-button-toggle>
+  <mat-button-toggle value="1.14.4" class="version-14">1.14.4</mat-button-toggle>
+  <mat-button-toggle value="1.15.2" class="version-15">1.15.2</mat-button-toggle>
+</mat-button-toggle-group>
+
 <div class="minecraft-container">
   <ng-container *ngFor="let mod of mods">
     <app-mcmod
