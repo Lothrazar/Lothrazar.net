@@ -7,20 +7,27 @@ import mods from 'src/assets/mods.json';
 })
 export class McmodsService {
   modList: IModPage[];
-  modMap = {}; // Map<string, IModPage[]> = {};
+  modVersionMap = {};
+  modMap = {};
 
   constructor() {
     for(const i in mods) {
       const m = mods[i];
+      this.modMap[m.curseSlug] = m;
       for(const j in m.versions) {
         const vers = m.versions[j];
-        if(!this.modMap[vers]) {
-          this.modMap[vers] = [];
+        if(!this.modVersionMap[vers]) {
+          this.modVersionMap[vers] = [];
         }
-        this.modMap[vers].push(m);
+        this.modVersionMap[vers].push(m);
       }
     }
     this.modList = mods;
+    console.log(this.modMap);
+  }
+
+  getMod(slug: string): IModPage {
+    return this.modMap[slug];
   }
 
   getMods(): IModPage[] {
@@ -28,6 +35,6 @@ export class McmodsService {
   }
 
   getVersionMods(vers: string): IModPage[] {
-    return this.modMap[vers];
+    return this.modVersionMap[vers];
   }
 }

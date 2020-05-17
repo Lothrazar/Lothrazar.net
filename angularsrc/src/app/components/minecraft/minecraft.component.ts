@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { McmodsService } from 'src/app/services/mcmods/mcmods.service';
 import { IModPage } from 'src/app/data/IModPage';
-import {MatButtonToggleModule} from '@angular/material';
+import { MatButtonToggleModule } from '@angular/material';
 
 @Component({
   selector: 'app-minecraft',

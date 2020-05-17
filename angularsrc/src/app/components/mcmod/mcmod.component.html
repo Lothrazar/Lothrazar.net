@@ -1,13 +1,19 @@
 <div class='mod-container'>
   <div class='github'>
-   <app-widget-github [mod]='mod'> </app-widget-github>
+    <app-widget-github [mod]='mod'> </app-widget-github>
   </div>
+  <a href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files' target='curse'>
+    <mat-icon>file_download</mat-icon>
+  </a>
+  <a href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}' target='curse'>
+    <mat-icon>home</mat-icon>
+  </a>
   <div class='title'>
-    <a href='https://minecraft.curseforge.com/projects/{{ mod.curseSlug }}' target='curse'>
+    <a href='/minecraft/{{ mod.curseSlug }}' target='curse'>
       {{ mod.name }}
     </a>
   </div>
-<!--  <app-widget-curse [mod]='mod'></app-widget-curse>-->
+  <!--  <app-widget-curse [mod]='mod'></app-widget-curse>-->
   <div style="float:right">
     <div *ngIf="mod.versions.includes('1.7.10');" class="version version-1710">
       1.7.10
