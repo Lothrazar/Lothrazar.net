@@ -9,7 +9,7 @@
     <mat-icon>home</mat-icon>
   </a>
   <div class='title'>
-    <a href='/minecraft/{{ mod.curseSlug }}' target='curse'>
+    <a [routerLink]="['/minecraft/mod', mod.curseSlug]">
       {{ mod.name }}
     </a>
   </div>

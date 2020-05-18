@@ -15,9 +15,9 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { MinecraftComponent } from './components/minecraft/minecraft.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { AsthmaComponent } from './components/asthma/asthma.component';
 import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { McmodpageComponent } from './components/mcmodpage/mcmodpage.component';
 
 const appRoutes: Routes = [
   { path: '',
@@ -26,7 +26,7 @@ const appRoutes: Routes = [
   },
   { path: 'home', component:HomepageComponent },
   { path: 'minecraft', component: MinecraftComponent },
-  { path: 'asthma', component: AsthmaComponent },
+  { path: 'minecraft/mod/:slug', component: McmodpageComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -42,7 +42,7 @@ const appRoutes: Routes = [
     MinecraftComponent,
     HeaderComponent,
     FooterComponent,
-    AsthmaComponent
+    McmodpageComponent
   ],
   imports: [
     MaterialModule,
