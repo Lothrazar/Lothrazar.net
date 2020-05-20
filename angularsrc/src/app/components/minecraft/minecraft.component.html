@@ -11,9 +11,6 @@
 
 <div class="minecraft-container">
   <ng-container *ngFor="let mod of mods">
-    <app-mcmod
-      *ngIf="!mod.hidden"
-      class="minecraft-item"
-      [mod]="mod"></app-mcmod>
+    <app-mcmod class="minecraft-item" [mod]="mod"></app-mcmod>
   </ng-container>
 </div>
