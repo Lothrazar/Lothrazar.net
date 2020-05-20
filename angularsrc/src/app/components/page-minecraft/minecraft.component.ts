@@ -8,7 +8,7 @@ import { MatButtonToggleModule } from '@angular/material';
   templateUrl: './minecraft.component.html',
   styleUrls: ['./minecraft.component.css']
 })
-export class MinecraftComponent implements OnInit {
+export class MinecraftPageComponent implements OnInit {
 
   private group: string = null;
   public mods: IModPage[];
