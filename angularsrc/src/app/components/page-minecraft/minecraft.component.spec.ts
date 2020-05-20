@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MinecraftComponent } from './minecraft.component';
+import { MinecraftPageComponent } from './minecraft.component';
 
 describe('MinecraftComponent', () => {
-  let component: MinecraftComponent;
-  let fixture: ComponentFixture<MinecraftComponent>;
+  let component: MinecraftPageComponent;
+  let fixture: ComponentFixture<MinecraftPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MinecraftComponent ]
+      declarations: [ MinecraftPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MinecraftComponent);
+    fixture = TestBed.createComponent(MinecraftPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
