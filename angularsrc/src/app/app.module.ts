@@ -8,7 +8,6 @@ import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { McmodComponent } from './components/tile-minecraftmod/mcmod.component';
 import { McmodsService } from './services/mcmods/mcmods.service';
-import { IconGithubComponent } from './components/icon-github/icon-github.component';
 import { WidgetCurseComponent } from './components/widget-curse/widget-curse.component';
 import { WidgetGithubComponent } from './components/widget-github/widget-github.component';
 import { GithubService } from './services/github/github.service';
@@ -34,7 +33,6 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     McmodComponent,
-    IconGithubComponent,
     WidgetCurseComponent,
     WidgetGithubComponent,
     PageNotFoundComponent,
