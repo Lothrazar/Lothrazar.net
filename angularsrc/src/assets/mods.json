@@ -1,12 +1,5 @@
 [
   {
-    "curseId": 231867,
-    "name": "Simple Beetroot",
-    "curseSlug": "simple-beetroot",
-    "githubId": "SimpleBeetrootMod",
-    "versions": ["1.8.9"]
-  },
-  {
     "curseId": 239286,
     "name": "Cyclic",
     "curseSlug": "cyclic",
@@ -25,7 +18,7 @@
     "name": "Similsax Transtructors",
     "curseSlug": "similsax-transtructors",
     "githubId": "Similsax-Transtructors",
-    "versions": ["1.12.2","1.14.4"]
+    "versions": ["1.7.10","1.10.2","1.12.2","1.14.4"]
   },
   {
     "curseId": 231837,
@@ -53,7 +46,7 @@
     "name": "Absent by Design",
     "curseSlug": "absent-by-design",
     "githubId": "AbsentByDesign",
-    "versions": ["1.12.2","1.15.2"]
+    "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
     "curseId": 275086,
@@ -80,7 +73,7 @@
     "curseId": 307605,
     "name": "Giant Player Boss",
     "curseSlug": "giant-player-boss",
-    "githubId": "giant-player-boss",
+    "githubId": "PlayerBosses",
     "versions": ["1.12.2"]
   },
   {
@@ -103,14 +96,7 @@
     "name": "Biome Growth Control",
     "curseSlug": "restricted-saplings",
     "githubId": "SaplingGrowthControl",
-    "versions": ["1.12.2","1.15.2"]
-  },
-  {
-    "curseId": 320706,
-    "name": "Arrow Harvest",
-    "curseSlug": "arrow-harvest",
-    "githubId": "ChorusArrow",
-    "versions": ["1.12.2"]
+    "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
     "curseId": 324307,
@@ -138,7 +124,7 @@
     "name": "Inventory Crafting Grid",
     "curseSlug": "inventory-crafting-grid",
     "githubId": "InventoryCrafting",
-    "versions": ["1.7.10","1.8.9","1.12.2","1.15.2"]
+    "versions": ["1.7.10","1.12.2","1.15.2"]
   },
   {
     "curseId": 368921,
@@ -173,7 +159,7 @@
     "name": "Stronger Farmland",
     "curseSlug": "stronger-farmland",
     "githubId": "StrongerFarmland",
-    "versions": ["1.15.2"]
+    "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
     "curseId": 358241,
@@ -187,7 +173,7 @@
     "name": "Cannot build over lava source blocks",
     "curseSlug": "cannot-build-over-lava-source-blocks",
     "githubId": "NoLavaBuild",
-    "versions": ["1.14.4","1.15.2"]
+    "versions": ["1.12.2" ,"1.14.4","1.15.2"]
   },
   {
     "curseId": 351990,
@@ -201,7 +187,7 @@
     "name": "Fragile Torches",
     "curseSlug": "fragile-torches",
     "githubId": "FragileTorches",
-    "versions": ["1.7.10","1.8.9","1.14.4","1.15.2"]
+    "versions": ["1.7.10","1.12.2","1.14.4","1.15.2"]
   },
   {
     "curseId": 332609,
@@ -222,7 +208,7 @@
     "name": "Mounted ender pearl",
     "curseSlug": "mounted-pearl-bring-your-mount-along-when-you",
     "githubId": "MountedPearl",
-    "versions": ["1.12.2","1.14.4","1.15.2"]
+    "versions": ["1.7.10","1.12.2","1.14.4","1.15.2"]
   },
   {
     "curseId": 350696,
