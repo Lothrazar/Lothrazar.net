@@ -11,6 +11,7 @@
     "name": "Simple Storage Network",
     "curseSlug": "simple-storage-network",
     "githubId": "Storage-Network",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/100/305/64/64/636314361904813513.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -25,6 +26,7 @@
     "name": "Ocean Floor Control",
     "curseSlug": "ocean-floor-clay-sand-and-dirt",
     "githubId": "OceanFloorControl",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/19/963/64/64/635704371131281346.png",
     "versions": ["1.12.2"]
   },
   {
@@ -32,6 +34,7 @@
     "name": "Roots Classic",
     "curseSlug": "roots-classic",
     "githubId": "RootsClassic",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/157/93/64/64/636643301624754170.png",
     "versions": ["1.12.2"]
   },
   {
@@ -60,6 +63,7 @@
     "name": "Anger Management",
     "curseSlug": "anger-management",
     "githubId": "AngerManagement",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/175/285/64/64/636756682197041940.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -67,6 +71,7 @@
     "name": "Creeper Heal",
     "curseSlug": "forge-creeper-heal-unofficial",
     "githubId": "ForgeCreeperHeal",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/44/324/64/64/636030538249856506.jpeg",
     "versions": ["1.12.2"]
   },
   {
@@ -96,6 +101,7 @@
     "name": "Biome Growth Control",
     "curseSlug": "restricted-saplings",
     "githubId": "SaplingGrowthControl",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/20/449/64/64/635712024032505097.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -173,6 +179,7 @@
     "name": "Cannot build over lava source blocks",
     "curseSlug": "cannot-build-over-lava-source-blocks",
     "githubId": "NoLavaBuild",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/217/140/64/64/637005603619861416.png",
     "versions": ["1.12.2" ,"1.14.4","1.15.2"]
   },
   {
@@ -208,6 +215,7 @@
     "name": "Mounted ender pearl",
     "curseSlug": "mounted-pearl-bring-your-mount-along-when-you",
     "githubId": "MountedPearl",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/21/361/64/64/635726408317262610.png",
     "versions": ["1.7.10","1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -215,6 +223,7 @@
     "name": "Stacking Dimensional Rifts",
     "curseSlug": "dimension-stacking-rifts",
     "githubId": "DimStacker",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/235/639/64/64/637086950760974790.png",
     "versions": ["1.12.2"]
   }
 ]

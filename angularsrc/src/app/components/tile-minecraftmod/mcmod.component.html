@@ -1,20 +1,16 @@
 <div class='mod-container'>
-  <ng-container *ngIf="mod.logo">
-    <!-- <img src="{{ mod.logo }}" /> -->
-  </ng-container>
 
+  <a mat-button href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}' target='curse'>   
+    <img *ngIf="mod.logo" src="{{ mod.logo }}" class="mod-logo" title="{{mod.curseId}}"/>
+    <mat-icon *ngIf="!mod.logo">home</mat-icon>
+  </a>
+<!-- TODO: hide these next two if we are on mobile -->
   <a mat-button href='https://github.com/Lothrazar/{{ mod.githubId }}' target='github'>
     <img src="/assets/github.png" />
   </a>
   <a mat-button href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files' target='files'>
     <mat-icon>file_download</mat-icon>
   </a>
-  <a mat-button href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}' target='curse'>
-    <mat-icon>home</mat-icon>
-  </a>
-  <ng-container *ngIf="mod.logo">
-    <img src="{{ mod.logo }}" class="mod-logo" title="{{mod.curseId}}"/>
-  </ng-container>
 
   <div class='title'>
     <a [routerLink]="['/minecraft/mod', mod.curseSlug]">
