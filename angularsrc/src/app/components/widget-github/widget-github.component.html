@@ -1,14 +1,12 @@
-<a href='https://github.com/Lothrazar/{{ mod.githubId }}' target='github'>
-  <img src="/assets/github.png" />
-</a>
-<div *ngIf='issues'>
+
+<ng-container *ngIf='issues'>
   <span>[{{issues.length}} total]</span>
   <span>[{{assigned}} assigned]</span>
   <span>[{{unlabelled}} no label]</span>
   <span>[{{uncommented}} no comments]</span>
 
-</div>
-<!--<button *ngIf='!issues' (click)='getIssues()' style='height:1px;'>-->
-<!--  github api-->
-<!--</button>-->
+</ng-container>
+<button mat-button *ngIf='!issues' (click)='getIssues()' >
+  github api
+</button>
 
