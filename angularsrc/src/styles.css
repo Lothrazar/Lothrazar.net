@@ -2,13 +2,13 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
-.version-1710 {
-  background: gray;
+.version-other {
+  background: orange;
   color: white;
 }
 
-.version-189 {
-  background: tomato;
+.version-1710 {
+  background: gray;
   color: white;
 }
 

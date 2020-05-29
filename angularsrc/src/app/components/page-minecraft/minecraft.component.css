@@ -1,3 +1,7 @@
+.minecraft-page {
+  width:900px;
+  margin: 0 auto;
+}
 
 .minecraft-container {
   display: flex;

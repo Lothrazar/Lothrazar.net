@@ -12,7 +12,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class MinecraftPageComponent implements OnInit {
 
   private group: string = null;
-  public mods: IModPage[];
+  public mods: IModPage[] = [];
   constructor(public modService: McmodsService, public router: Router, private route: ActivatedRoute) {
     this.mods = modService.getMods();
     this.route.queryParams
@@ -38,7 +38,7 @@ export class MinecraftPageComponent implements OnInit {
   }
 
   onChange($event): void {
-    if($event.value && $event.value != this.group) {
+    if($event.value) {
       this.router.navigate(['/minecraft'], {queryParams:{version: $event.value}});
     }
     else {
