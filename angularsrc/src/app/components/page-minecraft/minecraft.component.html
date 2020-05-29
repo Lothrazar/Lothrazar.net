@@ -1,7 +1,7 @@
 <app-header></app-header>
 
 <mat-button-toggle-group aria-label="Version Filter"
- (change)="onChange($event)">
+ (change)="onChange($event)" [value]="group">
   <mat-button-toggle value="1.7.10" class="version-1710">1.7.10</mat-button-toggle>
   <!-- <mat-button-toggle value="1.8.9" class="version-189">1.8.9</mat-button-toggle> -->
   <mat-button-toggle value="1.12.2" class="version-12">1.12.2</mat-button-toggle>

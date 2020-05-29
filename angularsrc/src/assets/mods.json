@@ -19,6 +19,7 @@
     "name": "Similsax Transtructors",
     "curseSlug": "similsax-transtructors",
     "githubId": "Similsax-Transtructors",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/24/33/64/64/635751631245606212.png",
     "versions": ["1.7.10","1.10.2","1.12.2","1.14.4"]
   },
   {
@@ -42,6 +43,7 @@
     "name": "Block Layers",
     "curseSlug": "block-layers",
     "githubId": "DecoLayers",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/676/64/64/637263042379613423.png",
     "versions": ["1.12.2"]
   },
   {
@@ -49,6 +51,7 @@
     "name": "Absent by Design",
     "curseSlug": "absent-by-design",
     "githubId": "AbsentByDesign",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/694/64/64/637263088543870771.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -56,6 +59,7 @@
     "name": "Ore Prospectors",
     "curseSlug": "ore-prospectors",
     "githubId": "Prospectors",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/714/64/64/637263137247836519.png",
     "versions": ["1.12.2"]
   },
   {
@@ -86,6 +90,7 @@
     "name": "EmberRoot Zoo",
     "curseSlug": "emberroot-zoo",
     "githubId": "ERZ",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/108/641/64/64/636373962527245927.png",
     "versions": ["1.12.2"]
   },
   {
@@ -101,7 +106,7 @@
     "name": "Biome Growth Control",
     "curseSlug": "restricted-saplings",
     "githubId": "SaplingGrowthControl",
-    "logo": "https://media.forgecdn.net/avatars/thumbnails/20/449/64/64/635712024032505097.png",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/680/64/64/637263045356275636.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -116,6 +121,7 @@
     "name": "Scaffolding behavior",
     "curseSlug": "scaffolding-behavior",
     "githubId": "LadderPower",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/675/64/64/637263035858335469.png",
     "versions": ["1.15.2"]
   },
   {
@@ -123,6 +129,7 @@
     "name": "Game rules config",
     "curseSlug": "game-rules-config",
     "githubId": "GameRuleConfig",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/700/64/64/637263098984560016.png",
     "versions": ["1.15.2"]
   },
   {
@@ -130,6 +137,7 @@
     "name": "Inventory Crafting Grid",
     "curseSlug": "inventory-crafting-grid",
     "githubId": "InventoryCrafting",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/21/61/64/64/635721731012418510.png",
     "versions": ["1.7.10","1.12.2","1.15.2"]
   },
   {
@@ -137,6 +145,7 @@
     "name": "Glass Cutters",
     "curseSlug": "glass-cutter",
     "githubId": "GlassCutter",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/697/64/64/637263096369154289.png",
     "versions": ["1.15.2"]
   },
   {
@@ -144,6 +153,7 @@
     "name": "Lattice Grid Nether Portals",
     "curseSlug": "nether-portal-grid",
     "githubId": "WorldPortals",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/702/64/64/637263106171402660.png",
     "versions": ["1.15.2"]
   },
   {
@@ -151,6 +161,7 @@
     "name": "Let them grow",
     "curseSlug": "let-them-grow",
     "githubId": "LetThemGrow",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/672/64/64/637263032167360885.png",
     "versions": ["1.15.2"]
   },
   {
@@ -165,6 +176,7 @@
     "name": "Stronger Farmland",
     "curseSlug": "stronger-farmland",
     "githubId": "StrongerFarmland",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/693/64/64/637263087098134908.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -172,6 +184,7 @@
     "name": "Stupid horse stand still",
     "curseSlug": "stupid-horse-stand-still",
     "githubId": "stupidHorseStandStill",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/632/64/64/637262902934662148.png",
     "versions": ["1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -187,6 +200,7 @@
     "name": "Gardening Tools",
     "curseSlug": "gardening-tools",
     "githubId": "GardenTools",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/679/64/64/637263044524248183.png",
     "versions": ["1.14.4","1.15.2"]
   },
   {
@@ -194,6 +208,7 @@
     "name": "Fragile Torches",
     "curseSlug": "fragile-torches",
     "githubId": "FragileTorches",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/19/907/64/64/635703545652356785.png",
     "versions": ["1.7.10","1.12.2","1.14.4","1.15.2"]
   },
   {
@@ -201,6 +216,7 @@
     "name": "Elementary ores",
     "curseSlug": "elementary-ores",
     "githubId": "elementary-ores",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/215/965/64/64/637000092602098965.png",
     "versions": ["1.14.4","1.15.2"]
   },
   {
@@ -208,6 +224,7 @@
     "name": "Auto Sprint",
     "curseSlug": "auto-sprint",
     "githubId": "AutoRun",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/275/671/64/64/637263031852493162.png",
     "versions": ["1.14.4","1.15.2"]
   },
   {

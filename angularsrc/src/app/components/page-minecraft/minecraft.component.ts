@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { McmodsService } from 'src/app/services/mcmods/mcmods.service';
 import { IModPage } from 'src/app/data/IModPage';
 import { MatButtonToggleModule } from '@angular/material';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-minecraft',
@@ -12,25 +13,36 @@ export class MinecraftPageComponent implements OnInit {
 
   private group: string = null;
   public mods: IModPage[];
-  constructor(public modService: McmodsService) {
+  constructor(public modService: McmodsService, public router: Router, private route: ActivatedRoute) {
     this.mods = modService.getMods();
-    this.sortByName();
+    this.route.queryParams
+    .subscribe(params => {
+
+      this.group = params.version;
+      console.log(  this.group);
+      this.sortByName();
+    });
   }
 
   ngOnInit(): void {
   }
 
   sortByName(): void {
-    this.mods.sort((a,b) => a.name.localeCompare(b.name));
-  }
-
-  onChange($event): void {
-    this.group = $event.value;
     if(this.group) {
       this.mods = this.modService.getVersionMods(this.group);
     }
     else {
       this.mods = this.modService.getMods();
+    }
+    this.mods.sort((a,b) => a.name.localeCompare(b.name));
+  }
+
+  onChange($event): void {
+    if($event.value && $event.value != this.group) {
+      this.router.navigate(['/minecraft'], {queryParams:{version: $event.value}});
+    }
+    else {
+      this.router.navigate(['/minecraft']);
     }
   }
 }
