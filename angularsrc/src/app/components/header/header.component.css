@@ -12,3 +12,9 @@
   padding-top: 14px;
   height: 50px;
 }
+.header-mention-button img {
+  height: 20px;
+}
+.header-patreon {
+  border-radius: 20px;
+}

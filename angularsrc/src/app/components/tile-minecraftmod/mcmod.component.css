@@ -13,12 +13,9 @@
   float: right;
 }
 
-.mod-versions div {
-  display: inline-block;
-  /* text-align: center; */
-  border-radius: 12px;
-  width: 18px;
-  color: transparent;
+.mod-versions a { 
+  /* width: 24px; 
+  width: 24px;  */
 }
 
 .mod-logo {

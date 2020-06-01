@@ -20,7 +20,7 @@ import { McmodpageComponent } from './components/page-minecraftmod/mcmodpage.com
 
 const appRoutes: Routes = [
   { path: '',
-    redirectTo: 'home',
+    redirectTo: 'minecraft',
     pathMatch: 'full'
   },
   { path: 'home', component:HomepageComponent },
