@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { GithubService } from 'src/app/services/github/github.service';
 import { IModPage } from 'src/app/data/IModPage';
+import { GithubIssue } from 'src/app/data/GithubIssue';
 
 @Component({
   selector: 'app-widget-github',

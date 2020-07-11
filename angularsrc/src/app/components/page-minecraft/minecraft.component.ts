@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { McmodsService } from 'src/app/services/mcmods/mcmods.service';
 import { IModPage } from 'src/app/data/IModPage';
-import { MatButtonToggleModule } from '@angular/material';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -11,15 +11,14 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class MinecraftPageComponent implements OnInit {
 
-  private group: string = null;
-  public mods: IModPage[] = [];
+  group: string = null;
+  mods: IModPage[] = [];
   constructor(public modService: McmodsService, public router: Router, private route: ActivatedRoute) {
     this.mods = modService.getMods();
     this.route.queryParams
     .subscribe(params => {
 
       this.group = params.version;
-      console.log(  this.group);
       this.sortByName();
     });
   }

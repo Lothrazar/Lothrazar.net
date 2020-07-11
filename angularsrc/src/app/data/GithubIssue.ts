@@ -1,4 +1,4 @@
-interface GithubIssue {
+export interface GithubIssue {
     number: number;
     title: string;
     labels: object[];
