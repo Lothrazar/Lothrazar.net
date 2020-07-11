@@ -45,7 +45,7 @@
     "curseSlug": "block-layers",
     "githubId": "DecoLayers",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/676/64/64/637263042379613423.png",
-    "versions": ["1.12.2"]
+    "versions": ["1.12.2","1.15.2"]
   },
   {
     "curseId": 305840,
