@@ -3,27 +3,37 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .version-other {
-  background: orange;
+  background: #E7A245;
   color: white;
 }
 
-.version-1710 {
-  background: gray;
+.version-17 {
+  background: #5B5B5B;
   color: white;
 }
 
-.version-12 {
-  background: #270b8c;
+.version-110 {
+  background: #5E351E;
   color: white;
 }
 
-.version-14 {
-  background: green;
+.version-112 {
+  background: #203B91;
   color: white;
 }
 
-.version-15 {
-  background: purple;
+.version-114 {
+  background: #5D7C15;
+  color: white;
+}
+
+.version-115 {
+  background: #9F5DAD;
+  color: white;
+}
+
+.version-116 {
+  background: #8C1E1E;
   color: white;
 }
 
