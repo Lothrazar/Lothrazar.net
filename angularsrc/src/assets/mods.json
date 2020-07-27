@@ -61,7 +61,7 @@
     "curseSlug": "cyclic",
     "githubId": "Cyclic",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/91/91/64/64/636244465665632371.png",
-    "versions": ["1.12.2","1.15.2"]
+    "versions": ["1.12.2","1.15.2","1.16.1"]
   },
   {
     "curseId": 246973,
@@ -156,7 +156,7 @@
     "curseSlug": "mounted-pearl-bring-your-mount-along-when-you",
     "githubId": "MountedPearl",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/21/361/64/64/635726408317262610.png",
-    "versions": ["1.7.10","1.12.2","1.14.4","1.15.2","1.16.1"]
+    "versions": ["1.7.10","1.10.2","1.12.2","1.14.4","1.15.2","1.16.1"]
   },
   {
     "curseId": 231837,
