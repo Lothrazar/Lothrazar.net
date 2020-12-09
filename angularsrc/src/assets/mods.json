@@ -283,5 +283,19 @@
     "curseSlug": "unbreakable-spawner",
     "githubId": "UnbreakableSpawner",
     "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 412686,
+    "name": "Peaceful Heights",
+    "curseSlug": "peaceful-heights",
+    "githubId": "PeacefulHeights",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 425651,
+    "name": "Loot Rebalance",
+    "curseSlug": "loot-rebalance",
+    "githubId": "LootRebalance",
+    "versions": ["1.16"]
   }
 ]

@@ -20,12 +20,12 @@ import { McmodpageComponent } from './components/page-minecraftmod/mcmodpage.com
 
 const appRoutes: Routes = [
   { path: '',
-    redirectTo: 'minecraft',
+    redirectTo: '/minecraft?version=1.16',
     pathMatch: 'full'
   },
   { path: 'home', component:HomepageComponent },
   { path: 'minecraft', component: MinecraftPageComponent },
-  { path: 'minecraft/mod/:slug', component: McmodpageComponent },
+  // { path: 'minecraft/mod/:slug', component: McmodpageComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 

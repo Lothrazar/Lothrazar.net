@@ -10,6 +10,12 @@ export class McmodsService {
   modVersionMap = {};
   modMap = {};
 
+  selected = {
+    '1.7.10': false,
+    '1.12': false,
+    '1.16': false
+  }
+
   constructor() {
     for(const i in mods) {
       const m = mods[i];
