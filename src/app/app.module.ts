@@ -44,9 +44,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     MaterialModule,
-    RouterModule.forRoot(
-      appRoutes//, { enableTracing: true } // <-- debugging purposes only
-    ),
+    RouterModule.forRoot(appRoutes //, { enableTracing: true } // <-- debugging purposes only
+, { relativeLinkResolution: 'legacy' }),
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,

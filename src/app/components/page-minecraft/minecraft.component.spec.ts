@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { MinecraftPageComponent } from './minecraft.component';
 
@@ -6,7 +6,7 @@ describe('MinecraftComponent', () => {
   let component: MinecraftPageComponent;
   let fixture: ComponentFixture<MinecraftPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ MinecraftPageComponent ]
     })
