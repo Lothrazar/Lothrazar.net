@@ -4,14 +4,10 @@
     <img *ngIf="mod.logo" src="{{ mod.logo }}" class="mod-logo" title="{{mod.curseId}}"/>
     <mat-icon *ngIf="!mod.logo">home</mat-icon>
   </a>
-<!-- TODO: hide if we are on mobile -->
+  <!-- TODO: hide if we are on mobile -->
   <a mat-button href='https://github.com/Lothrazar/{{ mod.githubId }}/issues' target='github'>
     <img src="/assets/github.png" />
   </a>
-  <!-- <a mat-button href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files' target='files'>
-    <mat-icon>file_download</mat-icon>
-  </a> -->
-
   <div class='mod-title'>
     <!-- <a [routerLink]="['/minecraft/mod', mod.curseSlug]"> -->
     <a href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}' target='curse'>
@@ -23,6 +19,11 @@
     <a mat-icon-button *ngIf="mod.versions.includes('1.7.10');" class="version-17"
       target="curse"
       href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A4449">
+      <mat-icon>get_app</mat-icon>
+    </a>
+    <a mat-icon-button *ngIf="mod.versions.includes('1.10');" class="version-110"
+      target="curse"
+      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A6170">
       <mat-icon>get_app</mat-icon>
     </a>
     <a mat-icon-button *ngIf="mod.versions.includes('1.12');" class="version-112"
