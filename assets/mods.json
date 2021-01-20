@@ -1,0 +1,301 @@
+[
+  {
+    "curseId": 305840,
+    "name": "Absent by Design",
+    "curseSlug": "absent-by-design",
+    "githubId": "AbsentByDesign",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/694/64/64/637263088543870771.png",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 320757,
+    "name": "Anti Bonemeal",
+    "curseSlug": "anti-bonemeal",
+    "githubId": "AntiBonemeal",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/202/144/64/64/636924514898907681.png",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 348584,
+    "name": "Auto Sprint",
+    "curseSlug": "auto-sprint",
+    "githubId": "AutoRun",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/275/671/64/64/637263031852493162.png",
+    "versions": ["1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 305211,
+    "name": "Anger Management",
+    "curseSlug": "anger-management",
+    "githubId": "AngerManagement",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/175/285/64/64/636756682197041940.png",
+    "versions": ["1.12","1.14","1.15"]
+  },
+  {
+    "curseId": 232166,
+    "name": "Biome Growth Control",
+    "curseSlug": "restricted-saplings",
+    "githubId": "SaplingGrowthControl",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/680/64/64/637263045356275636.png",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 305561,
+    "name": "Block Layers",
+    "curseSlug": "block-layers",
+    "githubId": "DecoLayers",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/676/64/64/637263042379613423.png",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 333828,
+    "name": "Cannot build over lava source blocks",
+    "curseSlug": "cannot-build-over-lava-source-blocks",
+    "githubId": "NoLavaBuild",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/217/140/64/64/637005603619861416.png",
+    "versions": ["1.12" ,"1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 239286,
+    "name": "Cyclic",
+    "curseSlug": "cyclic",
+    "githubId": "Cyclic",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/91/91/64/64/636244465665632371.png",
+    "versions": ["1.12","1.15","1.16"]
+  },
+  {
+    "curseId": 246973,
+    "name": "Creeper Heal",
+    "curseSlug": "forge-creeper-heal-unofficial",
+    "githubId": "ForgeCreeperHeal",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/44/324/64/64/636030538249856506.jpeg",
+    "versions": ["1.10","1.12"]
+  },
+  {
+    "curseId": 332609,
+    "name": "Elementary ores",
+    "curseSlug": "elementary-ores",
+    "githubId": "elementary-ores",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/215/965/64/64/637000092602098965.png",
+    "versions": ["1.14","1.15"]
+  },
+  {
+    "curseId": 231800,
+    "name": "Fragile Torches",
+    "curseSlug": "fragile-torches",
+    "githubId": "FragileTorches",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/19/907/64/64/635703545652356785.png",
+    "versions": ["1.7.10","1.10","1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 351990,
+    "name": "Gardening Tools",
+    "curseSlug": "gardening-tools",
+    "githubId": "GardenTools",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/679/64/64/637263044524248183.png",
+    "versions": ["1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 368921,
+    "name": "Glass Cutters",
+    "curseSlug": "glass-cutter",
+    "githubId": "GlassCutter",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/697/64/64/637263096369154289.png",
+    "versions": ["1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 307605,
+    "name": "Giant Player Boss",
+    "curseSlug": "giant-player-boss",
+    "githubId": "PlayerBosses",
+    "versions": ["1.12"]
+  },
+  {
+    "curseId": 273711,
+    "name": "EmberRoot Zoo",
+    "curseSlug": "emberroot-zoo",
+    "githubId": "ERZ",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/108/641/64/64/636373962527245927.png",
+    "versions": ["1.12"]
+  },
+  {
+    "curseId": 369028,
+    "name": "More Powerful Game Rules",
+    "curseSlug": "custom-game-rules",
+    "githubId": "CustomGameRules",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/700/64/64/637263098984560016.png",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 232597,
+    "name": "Inventory Crafting Grid",
+    "curseSlug": "inventory-crafting-grid",
+    "githubId": "InventoryCrafting",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/21/61/64/64/635721731012418510.png",
+    "versions": ["1.7.10","1.10","1.12","1.15","1.16"]
+  },
+  {
+    "curseId": 370541,
+    "name": "Lattice Grid Nether Portals",
+    "curseSlug": "nether-portal-grid",
+    "githubId": "WorldPortals",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/702/64/64/637263106171402660.png",
+    "versions": ["1.15","1.16"]
+  },
+  {
+    "curseId": 368534,
+    "name": "Let them grow",
+    "curseSlug": "let-them-grow",
+    "githubId": "LetThemGrow",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/672/64/64/637263032167360885.png",
+    "versions": ["1.15","1.16"]
+  },
+  {
+    "curseId": 232795,
+    "name": "Mounted ender pearl",
+    "curseSlug": "mounted-pearl-bring-your-mount-along-when-you",
+    "githubId": "MountedPearl",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/21/361/64/64/635726408317262610.png",
+    "versions": ["1.7.10","1.10","1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 231837,
+    "name": "Ocean Floor Control",
+    "curseSlug": "ocean-floor-clay-sand-and-dirt",
+    "githubId": "OceanFloorControl",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/19/963/64/64/635704371131281346.png",
+    "versions": ["1.7.10","1.10","1.12"]
+  },
+  {
+    "curseId": 275086,
+    "name": "Ore Prospectors",
+    "curseSlug": "ore-prospectors",
+    "githubId": "Prospectors",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/714/64/64/637263137247836519.png",
+    "versions": ["1.12"]
+  },
+  {
+    "curseId": 233168,
+    "name": "Overpowered Inventory",
+    "curseSlug": "overpowered-inventory",
+    "githubId": "OverpoweredInventory",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/91/91/64/64/636244465665632371.png",
+    "versions": ["1.10","1.12"]
+  },
+  {
+    "curseId": 234867,
+    "name": "Mimic prismarine",
+    "curseSlug": "mimic-1-8-prismarine-red-sandstone-granite",
+    "githubId": "MimicMinecraft18",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/23/881/64/64/635749238120153286.png",
+    "versions": ["1.7.10"]
+  },
+  {
+    "curseId": 231943,
+    "name": "Inventory control keys",
+    "curseSlug": "inventory-control-keys",
+    "githubId": "InventoryControlKeys",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/23/881/64/64/635749238120153286.png",
+    "versions": ["1.7.10"]
+  },
+  {
+    "curseId": 399669,
+    "name": "Simple Tomb",
+    "curseSlug": "simple-tomb",
+    "githubId": "Tombstone-Fork",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/290/719/64/64/637319811016837559.png",
+    "versions": ["1.12","1.15","1.16"]
+  },
+  {
+    "curseId": 295780,
+    "name": "Roots Classic",
+    "curseSlug": "roots-classic",
+    "githubId": "RootsClassic",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/157/93/64/64/636643301624754170.png",
+    "versions": ["1.12"]
+  },
+  {
+    "curseId": 232093,
+    "name": "Power Apples",
+    "curseSlug": "power-apples",
+    "githubId": "PowerApples",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/235/639/64/64/637086950760974790.png",
+    "versions": ["1.10"]
+  },
+  {
+    "curseId": 333875,
+    "name": "Stronger Farmland",
+    "curseSlug": "stronger-farmland",
+    "githubId": "StrongerFarmland",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/693/64/64/637263087098134908.png",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 370777,
+    "name": "Scaffolding behavior",
+    "curseSlug": "scaffolding-behavior",
+    "githubId": "ScaffoldingBehavior",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/675/64/64/637263035858335469.png",
+    "versions": ["1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 358241,
+    "name": "Stupid horse stand still",
+    "curseSlug": "stupid-horse-stand-still",
+    "githubId": "stupidHorseStandStill",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/275/632/64/64/637262902934662148.png",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 268495,
+    "name": "Simple Storage Network",
+    "curseSlug": "simple-storage-network",
+    "githubId": "Storage-Network",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/100/305/64/64/636314361904813513.png",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 233659,
+    "name": "Similsax Transtructors",
+    "curseSlug": "similsax-transtructors",
+    "githubId": "Similsax-Transtructors",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/24/33/64/64/635751631245606212.png",
+    "versions": ["1.7.10","1.10","1.12","1.14"]
+  },
+  {
+    "curseId": 350696,
+    "name": "Stacking Dimensional Rifts",
+    "curseSlug": "dimension-stacking-rifts",
+    "githubId": "DimStacker",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/235/639/64/64/637086950760974790.png",
+    "versions": ["1.12"]
+  },
+  {
+    "curseId": 324307,
+    "name": "Tamed Respawn",
+    "curseSlug": "tamedrespawn",
+    "githubId": "TamedRespawn",
+    "versions": ["1.12"]
+  },
+  {
+    "curseId": 368728,
+    "name": "Unbreakable Spawner",
+    "curseSlug": "unbreakable-spawner",
+    "githubId": "UnbreakableSpawner",
+    "versions": ["1.12","1.14","1.15","1.16"]
+  },
+  {
+    "curseId": 412686,
+    "name": "Peaceful Heights",
+    "curseSlug": "peaceful-heights",
+    "githubId": "PeacefulHeights",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 425651,
+    "name": "Loot Rebalance",
+    "curseSlug": "loot-rebalance",
+    "githubId": "LootRebalance",
+    "versions": ["1.16"]
+  }
+]
