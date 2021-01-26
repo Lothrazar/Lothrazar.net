@@ -27,7 +27,7 @@ jobs:
         run: npm install
         
       - name: Run Build
-        run: ng build
+        run: npm run build
 
         # TODO: 
           # run: ng lint
