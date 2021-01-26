@@ -11,7 +11,6 @@ export class McmodComponent implements OnInit {
   @Input() mod: IModPage;
 
   constructor() {
-
   }
 
   ngOnInit() {
