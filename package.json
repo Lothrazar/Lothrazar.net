@@ -1,14 +1,8 @@
 {
   "name": "lothrazarpages",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "ng": "ng"
   },
   "dependencies": {
     "@angular-devkit/build-angular": "~0.1100.7",

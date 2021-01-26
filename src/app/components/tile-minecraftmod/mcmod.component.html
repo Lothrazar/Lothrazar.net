@@ -31,6 +31,17 @@
       href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A6756">
       <mat-icon>get_app</mat-icon>
     </a>
+
+    <a mat-icon-button *ngIf="mod.versions.includes('1.14');" class="version-114"
+      target="curse"
+      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A7469">
+      <mat-icon>get_app</mat-icon>
+    </a>
+    <a mat-icon-button *ngIf="mod.versions.includes('1.15');" class="version-115"
+      target="curse"
+      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A7722">
+      <mat-icon>get_app</mat-icon>
+    </a>
     <a mat-icon-button *ngIf="mod.versions.includes('1.16');" class="version-116"
       target="curse"
       href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A70886">
