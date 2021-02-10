@@ -38,10 +38,10 @@ export class MinecraftPageComponent implements OnInit {
 
   onChange($event): void {
     if($event.value) {
-      this.router.navigate(['/minecraft'], {queryParams:{version: $event.value}});
+      this.router.navigate(['/'], {queryParams:{version: $event.value}});
     }
     else {
-      this.router.navigate(['/minecraft']);
+      this.router.navigate(['/']);
     }
   }
 }

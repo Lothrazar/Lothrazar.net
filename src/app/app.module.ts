@@ -19,12 +19,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { McmodpageComponent } from './components/page-minecraftmod/mcmodpage.component';
 
 const appRoutes: Routes = [
-  { path: '',
-    redirectTo: '/minecraft?version=1.16',
+  { path: 'minecraft',
+    redirectTo: '/',
     pathMatch: 'full'
   },
-  { path: 'home', component:HomepageComponent },
-  { path: 'minecraft', component: MinecraftPageComponent },
+  // no homepage for now so skip the thing
+  { path: '', component: MinecraftPageComponent },
+  // { path: '', component:HomepageComponent },
+  // { path: 'minecraft', component: MinecraftPageComponent },
   // { path: 'minecraft/mod/:slug', component: McmodpageComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
