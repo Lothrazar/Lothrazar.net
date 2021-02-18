@@ -16,7 +16,7 @@ rm -rf *
 cd ..
 
 # run the build
-ng build --prod --base-href lothrazar.net
+ng build --prod
 
 # push it over to release folder
 cp -r ./dist/lothrazarpages/* ./release

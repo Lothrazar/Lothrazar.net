@@ -1,21 +1,21 @@
 <app-header></app-header>
 
-<div class="minecraft-page">
+<div class='minecraft-page'>
 
-  <mat-button-toggle-group aria-label="Version Filter"
-    (change)="onChange($event)" [value]="group">
-    <mat-button-toggle value="1.7.10" class="version-17">1.7.10</mat-button-toggle>
-    <mat-button-toggle value="1.10" class="version-110">1.10</mat-button-toggle>
-    <mat-button-toggle value="1.12" class="version-112">1.12</mat-button-toggle>
-    <mat-button-toggle value="1.14" class="version-114">1.14</mat-button-toggle>
-    <mat-button-toggle value="1.15" class="version-115">1.15</mat-button-toggle>
-    <mat-button-toggle value="1.16" class="version-116">1.16</mat-button-toggle>
-    <mat-button-toggle value="" class="version-other">&nbsp;&nbsp;&nbsp;All&nbsp;&nbsp;&nbsp;</mat-button-toggle>
+  <mat-button-toggle-group aria-label='Version Filter'
+    (change)='onChange($event)' [value]='group'>
+    <mat-button-toggle value='1.7.10' class='version-17'>1.7.10</mat-button-toggle>
+    <mat-button-toggle value='1.10' class='version-110'>1.10</mat-button-toggle>
+    <mat-button-toggle value='1.12' class='version-112'>1.12</mat-button-toggle>
+    <mat-button-toggle value='1.14' class='version-114'>1.14</mat-button-toggle>
+    <mat-button-toggle value='1.15' class='version-115'>1.15</mat-button-toggle>
+    <mat-button-toggle value='1.16' class='version-116'>1.16</mat-button-toggle>
+    <mat-button-toggle value='' class='version-other'>&nbsp;&nbsp;&nbsp;All&nbsp;&nbsp;&nbsp;</mat-button-toggle>
   </mat-button-toggle-group>
 
-  <div class="minecraft-container">
-    <ng-container *ngFor="let mod of mods">
-      <app-mcmod class="minecraft-item" [mod]="mod"></app-mcmod>
+  <div class='minecraft-container'>
+    <ng-container *ngFor='let mod of mods'>
+      <app-mcmod class='minecraft-item' [mod]='mod'></app-mcmod>
     </ng-container>
   </div>
 

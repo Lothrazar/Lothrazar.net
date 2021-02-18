@@ -297,5 +297,19 @@
     "curseSlug": "loot-rebalance",
     "githubId": "LootRebalance",
     "versions": ["1.16"]
+  },
+  {
+    "curseId": 444013,
+    "name": "Auto Plant Saplings",
+    "curseSlug": "auto-plant",
+    "githubId": "AutoPlant",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 444242,
+    "name": "Nuts and Fruit",
+    "curseSlug": "nuts-and-fruit",
+    "githubId": "NutsAndFruit",
+    "versions": ["1.16"]
   }
 ]
