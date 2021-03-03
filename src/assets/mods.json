@@ -307,9 +307,23 @@
   },
   {
     "curseId": 444242,
-    "name": "Nuts and Fruit",
+    "name": "Forage Nuts and Fruit",
     "curseSlug": "nuts-and-fruit",
     "githubId": "NutsAndFruit",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 448470,
+    "name": "Phantom Minecart",
+    "curseSlug": "fix-my-minecart",
+    "githubId": "FixedMinecarts",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 452000,
+    "name": "Plain Grinder",
+    "curseSlug": "plain-grinder",
+    "githubId": "PlainGrinder",
     "versions": ["1.16"]
   }
 ]
