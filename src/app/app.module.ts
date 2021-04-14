@@ -21,8 +21,7 @@ import { McmodpageComponent } from './components/page-minecraftmod/mcmodpage.com
 const appRoutes: Routes = [
   { path: '', component:HomepageComponent },
   { path: 'minecraft', component: MinecraftPageComponent },
-  // { path: 'minecraft', component: MinecraftPageComponent },
-  // { path: 'minecraft/mod/:slug', component: McmodpageComponent },
+  { path: 'minecraft/:slug', component: McmodpageComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 

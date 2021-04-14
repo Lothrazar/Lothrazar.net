@@ -4,21 +4,21 @@
   padding: 6px;
 }
 
-.mod-title {
+.mat-button {
+  max-width: 24px;
+}
+.title {
+  font-size: 26pt!important;
+}
+.inline {
   display: inline-block;
-  font-size: 24pt;
-}
-
-.mod-versions {
-  float: right;
-}
-
-.mod-versions a { 
-  /* width: 24px; 
-  width: 24px;  */
 }
 
 .mod-logo {
   border: 1px solid black;
   width: 29px;
+}
+
+.mod-versions {
+  float:right;
 }

@@ -18,6 +18,7 @@ export class WidgetGithubComponent implements OnInit {
   constructor(private githubService:GithubService) { }
 
   ngOnInit(): void {
+    this.getIssues();
   }
 
   getIssues(): void {

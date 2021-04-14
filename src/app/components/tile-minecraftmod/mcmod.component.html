@@ -1,51 +1,48 @@
 <mat-card class='mod-container'>
 
-  <a mat-button href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}' target='curse'>   
-    <img *ngIf="mod.logo" src="{{ mod.logo }}" class="mod-logo" title="{{mod.curseId}}"/>
-    <mat-icon *ngIf="!mod.logo">home</mat-icon>
+  <a mat-button class='inline' href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}' target='curse'>
+    <img *ngIf='mod.logo' src='{{ mod.logo }}' class='mod-logo' title='{{mod.name}}' />
+    <mat-icon *ngIf='!mod.logo'>home</mat-icon>
   </a>
   <!-- TODO: hide if we are on mobile -->
-  <a mat-button href='https://github.com/Lothrazar/{{ mod.githubId }}/issues' target='github'>
-    <img src="/assets/github.png" />
+  <a mat-button class='inline desktop-only' href='https://github.com/Lothrazar/{{ mod.githubId }}/issues' target='github'>
+    <img src='/assets/github.png' />
   </a>
-  <div class='mod-title'>
-    <!-- <a [routerLink]="['/minecraft/mod', mod.curseSlug]"> -->
-    <a href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}' target='curse'>
+  <div class='inline desktop-only'>
+    <a class='title' [routerLink]="['/minecraft', mod.curseSlug]">
       {{ mod.name }}
     </a>
   </div>
   
-  <div class="mod-versions">
-    
+  <div class='inline mod-versions'>
     <a mat-icon-button *ngIf="mod.versions.includes('1.7.10');" class="version-17"
-      target="curse"
-      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A4449">
+      target='curse'
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A4449'>
       <mat-icon>get_app</mat-icon>
     </a>
     <a mat-icon-button *ngIf="mod.versions.includes('1.10');" class="version-110"
-      target="curse"
-      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A6170">
+      target='curse'
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A6170'>
       <mat-icon>get_app</mat-icon>
     </a>
     <a mat-icon-button *ngIf="mod.versions.includes('1.12');" class="version-112"
-      target="curse"
-      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A6756">
+      target='curse'
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A6756'>
       <mat-icon>get_app</mat-icon>
     </a>
-
     <a mat-icon-button *ngIf="mod.versions.includes('1.14');" class="version-114"
-      target="curse"
-      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A7469">
+      target='curse'
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A7469'>
       <mat-icon>get_app</mat-icon>
     </a>
     <a mat-icon-button *ngIf="mod.versions.includes('1.15');" class="version-115"
-      target="curse"
-      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A7722">
+      target='curse'
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A7722'>
       <mat-icon>get_app</mat-icon>
     </a>
     <a mat-icon-button *ngIf="mod.versions.includes('1.16');" class="version-116"
-      target="curse"
-      href="https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A70886">
+      target='curse'
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A7088'>
       <mat-icon>get_app</mat-icon>
     </a>
   </div>

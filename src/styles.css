@@ -1,6 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+
+@media (min-width:992px) {
+    .desktop-only {
+        display: block;
+    }
+}
+ 
+@media (max-width: 991px) {
+    .mobile-only {
+        display: block !important;
+    }
+ 
+    .desktop-only {
+        display: none !important;
+        width: 0 !important;
+    }
+}
 
 .version-other {
   background: #E7A245;

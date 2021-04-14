@@ -108,6 +108,7 @@
     "name": "Giant Player Boss",
     "curseSlug": "giant-player-boss",
     "githubId": "PlayerBosses",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/179/506/64/64/636786762129011630.png",
     "versions": ["1.12"]
   },
   {
@@ -202,7 +203,7 @@
     "curseId": 399669,
     "name": "Simple Tomb",
     "curseSlug": "simple-tomb",
-    "githubId": "Tombstone-Fork",
+    "githubId": "SimpleTomb",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/290/719/64/64/637319811016837559.png",
     "versions": ["1.12","1.15","1.16"]
   },
@@ -219,7 +220,7 @@
     "name": "Power Apples",
     "curseSlug": "power-apples",
     "githubId": "PowerApples",
-    "logo": "https://media.forgecdn.net/avatars/thumbnails/235/639/64/64/637086950760974790.png",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/20/346/64/64/635710367066023882.png",
     "versions": ["1.10"]
   },
   {
@@ -275,6 +276,7 @@
     "name": "Tamed Respawn",
     "curseSlug": "tamedrespawn",
     "githubId": "TamedRespawn",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/206/810/64/64/636960846730644057.png",
     "versions": ["1.12"]
   },
   {
@@ -282,6 +284,7 @@
     "name": "Unbreakable Spawner",
     "curseSlug": "unbreakable-spawner",
     "githubId": "UnbreakableSpawner",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/255/951/64/64/637203453808908601.png",
     "versions": ["1.12","1.14","1.15","1.16"]
   },
   {
@@ -289,6 +292,7 @@
     "name": "Peaceful Heights",
     "curseSlug": "peaceful-heights",
     "githubId": "PeacefulHeights",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/305/486/64/64/637381171170298894.png",
     "versions": ["1.16"]
   },
   {
@@ -296,6 +300,7 @@
     "name": "Loot Rebalance",
     "curseSlug": "loot-rebalance",
     "githubId": "LootRebalance",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/319/956/64/64/637426668973946570.png",
     "versions": ["1.16"]
   },
   {
@@ -303,6 +308,7 @@
     "name": "Auto Plant Saplings",
     "curseSlug": "auto-plant",
     "githubId": "AutoPlant",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/369/905/64/64/637539779714479927.png",
     "versions": ["1.16"]
   },
   {
@@ -310,6 +316,7 @@
     "name": "Forage Nuts and Fruit",
     "curseSlug": "nuts-and-fruit",
     "githubId": "NutsAndFruit",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/369/903/64/64/637539776315664575.png",
     "versions": ["1.16"]
   },
   {
@@ -317,6 +324,7 @@
     "name": "Phantom Minecart",
     "curseSlug": "fix-my-minecart",
     "githubId": "FixedMinecarts",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/369/909/64/64/637539783271046896.png",
     "versions": ["1.16"]
   },
   {
@@ -324,6 +332,38 @@
     "name": "Plain Grinder",
     "curseSlug": "plain-grinder",
     "githubId": "PlainGrinder",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/350/849/64/64/637504419760179318.png",
     "versions": ["1.16"]
-  }
+  },
+  {
+    "curseId": 463775,
+    "name": "No more tree punching",
+    "curseSlug": "no-log-punch",
+    "githubId": "NoLogPunch",
+    "logo":"https://media.forgecdn.net/avatars/thumbnails/362/418/64/64/637529267691307339.png",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 465049,
+    "name": "Health Pickups & player starting health",
+    "curseSlug": "heart-balance",
+    "githubId": "HeartBalance",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/367/803/64/64/637535104172414370.png",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 469301,
+    "name": "Village Artifacts",
+    "curseSlug": "villager-tools",
+    "githubId": "VillagerTools",
+    "logo": "https://media.forgecdn.net/avatars/thumbnails/368/655/64/64/637537091964088679.png",
+    "versions": ["1.16"]
+  },
+  {
+    "curseId": 453072,
+    "name": "Blocky Stone Doors",
+    "curseSlug": "blocky-doors",
+    "githubId": "BlockyDoors",
+    "versions": ["1.16"]
+  }  
 ]
