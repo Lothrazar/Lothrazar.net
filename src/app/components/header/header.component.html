@@ -1,17 +1,5 @@
 <mat-toolbar color='primary' class='header-toolbar'>
 
-  <a mat-icon-button href='https://discord.lothrazar.net'
-      target='pt' class='header-mention-button'>
-    <img class='header-patreon' src='assets/Discord-Logo-White.png'>
-  </a>
-
-  <a routerLink='/' class='header-banner desktop-only'>
-    <img src='assets/namebanner.png'>
-  </a>
-
-  <span class='example-fill-remaining-space'></span>
-  <span>
-
   <mat-menu #appMenu='matMenu'>
     <button routerLink='/' mat-menu-item>Home</button>
     <button routerLink='/minecraft' mat-menu-item>Minecraft</button>
@@ -21,7 +9,18 @@
     <mat-icon>more_vert</mat-icon>
   </button>
 
-  </span>
+  <a routerLink='/' class='header-banner desktop-only'>
+    <img src='assets/namebanner.png'>
+  </a>
+
+  <span class='fill-remaining-space'></span>
+        
+  <a href='https://discord.lothrazar.net' class='header-mention-button' target='pt' mat-icon-button>
+    <img src='assets/Discord-Logo-Black.png'>
+  </a>
+
+  <a href='https://github.com/Lothrazar/Lothrazar.net' class='header-mention-button' target='pt' mat-icon-button>
+    <img src='assets/github.png'>
+  </a>
+
 </mat-toolbar>
-
-

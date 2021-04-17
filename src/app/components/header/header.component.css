@@ -1,4 +1,4 @@
-.example-fill-remaining-space {
+.fill-remaining-space {
   /* This fills the remaining space, by using flexbox.
      Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
@@ -12,9 +12,9 @@
   padding-top: 14px;
   height: 50px;
 }
+
 .header-mention-button img {
-  height: 20px;
-}
-.header-patreon {
-  border-radius: 20px;
+  padding-top: 4px;
+  padding-left: 18px;
+  height: 23px;
 }
