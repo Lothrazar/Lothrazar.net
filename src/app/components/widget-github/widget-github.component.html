@@ -1,8 +1,22 @@
 
-<ng-container *ngIf='issues'>
-  <span>[{{issues.length}} total]</span>
-  <span>[{{assigned}} assigned]</span>
-  <span>[{{unlabelled}} no label]</span>
-  <span>[{{uncommented}} no comments]</span>
+<ng-container *ngIf='showButton'>
+  <!-- we might not have data -->
+  <button mat-button (click)='getGithubData()' >Reload Github</button>
+</ng-container>
 
+<br/>
+<ng-container *ngIf='pulls'>
+  <a href='https://github.com/lothrazar/{{mod.githubId}}/pulls' target='_github'>
+    <span>Pull requests: {{pulls?.length}}</span>
+  </a>
+</ng-container>
+
+<br/>
+
+<ng-container *ngIf='issues'> 
+  <a href='https://github.com/lothrazar/{{mod.githubId}}/issues' target='_github'> 
+    <span>Issues: {{issues.length}}</span>
+    <br/>
+    <span *ngIf='unlabelled'>New Issues: {{unlabelled}}</span>
+  </a>
 </ng-container>

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IModPage } from 'src/app/data/IModPage';
+import { IModPage } from 'src/app/data/';
 import mods from 'src/assets/mods.json';
 
 @Injectable({

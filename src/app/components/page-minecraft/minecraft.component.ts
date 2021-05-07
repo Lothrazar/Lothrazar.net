@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { McmodsService } from 'src/app/services/mcmods/mcmods.service';
-import { IModPage } from 'src/app/data/IModPage';
+import { IModPage } from 'src/app/data/';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { Router, ActivatedRoute } from '@angular/router';
 

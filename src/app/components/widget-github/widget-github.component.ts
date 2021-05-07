@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { GithubService } from 'src/app/services/github/github.service';
-import { IModPage } from 'src/app/data/IModPage';
-import { GithubIssue } from 'src/app/data/GithubIssue';
+import { StorageService } from 'src/app/services/';
+import { GithubIssue, GithubPull, IModPage } from 'src/app/data/';
 
 @Component({
   selector: 'app-widget-github',
@@ -10,61 +10,75 @@ import { GithubIssue } from 'src/app/data/GithubIssue';
 })
 export class WidgetGithubComponent implements OnInit {
   @Input() mod: IModPage;
-  issues: GithubIssue[] = null;
+  showButton: boolean;
+  issues: GithubIssue[] = [];
+  pulls: GithubPull[] = [];
   assigned: number;
   unlabelled: number;
   uncommented: number;
 
-  constructor(private githubService:GithubService) { }
+  private issuesKey: string;
+  private pullsKey: string;
+
+  constructor(private githubService:GithubService,
+    private storage: StorageService) { }
 
   ngOnInit(): void {
-    this.getIssues();
+    this.issuesKey = this.mod.githubId + "_issues";
+    this.pullsKey = this.mod.githubId + "_pulls";
+    //TODO : reload from storage service
+    // then if none, go api
+    this.issues = this.storage.getJson(this.issuesKey);
+    this.pulls = this.storage.getJson(this.pullsKey);
+    console.info('issues from storage ', this.issues);
+    console.info('pulls from storage ', this.pulls);
+    this.showButton = (!this.issues || !this.pulls);
   }
 
-  getIssues(): void {
-    //MAKE INTERFACE for response
-    // SERVICE. and toggle between mock mode responses and non
-    // COUNT HOW MANY HAVE NO LABELS at all . and count total
-    // COUNT how many have "assignees" > 0
-
+  getGithubData(): void {
     if(!this.issues) {
-      console.info('Accessing github API...');
+      console.info('Accessing github issues API...');
       this.githubService.getIssues(this.mod.githubId)
-        .subscribe((data) => this.onLoadIssues(data), (error) => this.onFailIssues(error));
+        .subscribe((data) => this.onLoadIssues(data || []), (error) => this.onApiError(error));
     }
-    else {
-      console.info('Issues cached');
-      this.parseIssues();
+    if(!this.pulls) {
+      console.info('Accessing github pulls API...');
+      this.githubService.getPulls(this.mod.githubId)
+        .subscribe((data) => this.onLoadPulls(data || []), (error) => this.onApiError(error));
     }
-}
+    console.info('issues  ', this.issues);
+    console.info('pulls  ', this.pulls);
+  }
 
-  onFailIssues(data): void {
-    console.error('rate limited', data);
+  onApiError(err): void {
+    console.error('error from API', err);
+    this.showButton = true;
+  }
+
+  onLoadPulls(data): void {
+    this.pulls = data;
+    console.log('PR size', data?.length);
+    if(this.pulls) {
+      this.storage.put(this.pullsKey, this.pulls);
+    }
+    
   }
 
   onLoadIssues(data): void {
-    console.log(data);
-    if(data) {
-      this.issues = data;
-      this.parseIssues();
+    this.issues = data;
+    if(this.issues) {
+      this.storage.put(this.issuesKey, this.issues);
     }
-  }
-
-  private parseIssues(): void {
-    this.assigned = 0;
+    console.log('issues size', data?.length);
     this.unlabelled = 0;
     this.uncommented = 0;
     for(var issue of this.issues) {
       if(issue.labels.length == 0) {
         this.unlabelled++;
       }
-      if(issue.assignees.length > 0) {
-        this.assigned++;
-      }
       if(issue.comments == 0) {
         this.uncommented++;
       }
     }
-
-  }
+  } 
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { McmodsService } from 'src/app/services/mcmods/mcmods.service';
-import { IModPage } from 'src/app/data/IModPage';
+import { IModPage } from 'src/app/data/';
 
 @Component({
   selector: 'app-mcmodpage',

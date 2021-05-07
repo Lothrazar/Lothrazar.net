@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IModPage } from 'src/app/data/IModPage';
+import { IModPage } from 'src/app/data/';
 
 @Component({
   selector: 'app-widget-curse',
