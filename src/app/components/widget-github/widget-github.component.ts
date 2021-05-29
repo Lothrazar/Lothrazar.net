@@ -11,8 +11,8 @@ import { GithubIssue, GithubPull, IModPage } from 'src/app/data/';
 export class WidgetGithubComponent implements OnInit {
   @Input() mod: IModPage;
   showButton: boolean;
-  issues: GithubIssue[] = [];
-  pulls: GithubPull[] = [];
+  issues: GithubIssue[] = null;
+  pulls: GithubPull[] = null;
   assigned: number;
   unlabelled: number;
   uncommented: number;
@@ -69,7 +69,6 @@ export class WidgetGithubComponent implements OnInit {
     if(this.issues) {
       this.storage.put(this.issuesKey, this.issues);
     }
-    console.log('issues size', data?.length);
     this.unlabelled = 0;
     this.uncommented = 0;
     for(var issue of this.issues) {

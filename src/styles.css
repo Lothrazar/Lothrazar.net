@@ -8,11 +8,16 @@
     .desktop-only {
         display: block;
     }
+ 
+    .mobile-only {
+        display: none !important;
+        width: 0 !important;
+    }
 }
  
 @media (max-width: 991px) {
     .mobile-only {
-        display: block !important;
+        display: block;
     }
  
     .desktop-only {
