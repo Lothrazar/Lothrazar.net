@@ -277,7 +277,7 @@
     "curseSlug": "tamedrespawn",
     "githubId": "TamedRespawn",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/206/810/64/64/636960846730644057.png",
-    "versions": ["1.12"]
+    "versions": ["1.12","1.16"]
   },
   {
     "curseId": 368728,
