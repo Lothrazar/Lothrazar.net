@@ -33,3 +33,11 @@ cd release
 git add -A
 
 git status
+
+cd ..
+
+echo " ****** "
+echo "cd release"
+echo "git commit -am 'release notes'"
+echo "git push"
+echo " ****** "
