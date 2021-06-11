@@ -37,10 +37,10 @@ export class McmodsService {
   }
 
   getMods(): IModPage[] {
-    return this.modList;
+    return this.modList || [];
   }
 
   getVersionMods(vers: string): IModPage[] {
-    return this.modVersionMap[vers];
+    return this.modVersionMap[vers] || [];
   }
 }
