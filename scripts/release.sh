@@ -30,6 +30,13 @@ echo " ****** "
 
 cd release
 
-git add -A
-
 git status
+
+cd ..
+
+echo " ****** "
+echo "cd release"
+echo "git add -A"
+echo "git commit -am 'release commit'"
+echo "git push"
+echo " ****** "
