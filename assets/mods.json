@@ -77,7 +77,7 @@
     "curseSlug": "elementary-ores",
     "githubId": "elementary-ores",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/215/965/64/64/637000092602098965.png",
-    "versions": ["1.14","1.15"]
+    "versions": ["1.14","1.15","1.16"]
   },
   {
     "curseId": 231800,
@@ -365,5 +365,5 @@
     "curseSlug": "blocky-doors",
     "githubId": "BlockyDoors",
     "versions": ["1.16"]
-  }  
+  }
 ]
