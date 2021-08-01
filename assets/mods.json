@@ -77,7 +77,7 @@
     "curseSlug": "elementary-ores",
     "githubId": "elementary-ores",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/215/965/64/64/637000092602098965.png",
-    "versions": ["1.14","1.15","1.16"]
+    "versions": ["1.14","1.15","1.16","1.17"]
   },
   {
     "curseId": 231800,
@@ -165,7 +165,7 @@
     "curseSlug": "ocean-floor-clay-sand-and-dirt",
     "githubId": "OceanFloorControl",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/19/963/64/64/635704371131281346.png",
-    "versions": ["1.7.10","1.10","1.12"]
+    "versions": ["1.7.10","1.10","1.12","1.16","1.17"]
   },
   {
     "curseId": 275086,
@@ -269,7 +269,7 @@
     "curseSlug": "dimension-stacking-rifts",
     "githubId": "DimStacker",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/235/639/64/64/637086950760974790.png",
-    "versions": ["1.12", "1.16"]
+    "versions": ["1.12", "1.16","1.17"]
   },
   {
     "curseId": 324307,
@@ -357,7 +357,7 @@
     "curseSlug": "villager-tools",
     "githubId": "VillagerTools",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/368/655/64/64/637537091964088679.png",
-    "versions": ["1.16"]
+    "versions": ["1.16","1.17"]
   },
   {
     "curseId": 453072,
