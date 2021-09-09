@@ -205,7 +205,7 @@
     "curseSlug": "simple-tomb",
     "githubId": "SimpleTomb",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/290/719/64/64/637319811016837559.png",
-    "versions": ["1.12","1.15","1.16"]
+    "versions": ["1.12","1.15","1.16","1.17"]
   },
   {
     "curseId": 295780,
@@ -213,7 +213,7 @@
     "curseSlug": "roots-classic",
     "githubId": "RootsClassic",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/157/93/64/64/636643301624754170.png",
-    "versions": ["1.12"]
+    "versions": ["1.12","1.16"]
   },
   {
     "curseId": 232093,
@@ -261,7 +261,7 @@
     "curseSlug": "similsax-transtructors",
     "githubId": "Similsax-Transtructors",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/24/33/64/64/635751631245606212.png",
-    "versions": ["1.7.10","1.10","1.12","1.14"]
+    "versions": ["1.7.10","1.10","1.12","1.14","1.16"]
   },
   {
     "curseId": 350696,
@@ -364,6 +364,14 @@
     "name": "Blocky Stone Doors",
     "curseSlug": "blocky-doors",
     "githubId": "BlockyDoors",
+    "versions": ["1.16","1.17"]
+  },
+  {
+    "curseId": 493759,
+    "name": "Runes",
+    "curseSlug": "runes",
+    "githubId": "Runes",
+    "logo": "https://media.forgecdn.net/avatars/421/247/637648617776427047.png",
     "versions": ["1.16","1.17"]
   }
 ]
