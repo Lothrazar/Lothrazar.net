@@ -253,7 +253,7 @@
     "curseSlug": "simple-storage-network",
     "githubId": "Storage-Network",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/100/305/64/64/636314361904813513.png",
-    "versions": ["1.12","1.14","1.15","1.16"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17"]
   },
   {
     "curseId": 233659,
@@ -261,7 +261,7 @@
     "curseSlug": "similsax-transtructors",
     "githubId": "Similsax-Transtructors",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/24/33/64/64/635751631245606212.png",
-    "versions": ["1.7.10","1.10","1.12","1.14","1.16"]
+    "versions": ["1.7.10","1.10","1.12","1.14","1.16","1.17"]
   },
   {
     "curseId": 350696,
@@ -333,7 +333,7 @@
     "curseSlug": "plain-grinder",
     "githubId": "PlainGrinder",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/350/849/64/64/637504419760179318.png",
-    "versions": ["1.16"]
+    "versions": ["1.16","1.17"]
   },
   {
     "curseId": 463775,
