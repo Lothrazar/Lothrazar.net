@@ -61,7 +61,7 @@
     "curseSlug": "cyclic",
     "githubId": "Cyclic",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/91/91/64/64/636244465665632371.png",
-    "versions": ["1.12","1.15","1.16"]
+    "versions": ["1.12","1.15","1.16","1.17"]
   },
   {
     "curseId": 246973,
@@ -133,7 +133,7 @@
     "curseSlug": "inventory-crafting-grid",
     "githubId": "InventoryCrafting",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/21/61/64/64/635721731012418510.png",
-    "versions": ["1.7.10","1.10","1.12","1.15","1.16"]
+    "versions": ["1.7.10","1.10","1.12","1.15","1.16","1.17"]
   },
   {
     "curseId": 370541,
@@ -213,7 +213,7 @@
     "curseSlug": "roots-classic",
     "githubId": "RootsClassic",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/157/93/64/64/636643301624754170.png",
-    "versions": ["1.12","1.16"]
+    "versions": ["1.12","1.16","1.17"]
   },
   {
     "curseId": 232093,
