@@ -5,7 +5,7 @@
     "curseSlug": "absent-by-design",
     "githubId": "AbsentByDesign",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/694/64/64/637263088543870771.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
   },
   {
     "curseId": 320757,
@@ -13,7 +13,7 @@
     "curseSlug": "anti-bonemeal",
     "githubId": "AntiBonemeal",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/202/144/64/64/636924514898907681.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
   },
   {
     "curseId": 348584,
@@ -21,7 +21,7 @@
     "curseSlug": "auto-sprint",
     "githubId": "AutoRun",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/275/671/64/64/637263031852493162.png",
-    "versions": ["1.14","1.15","1.16","1.17"]
+    "versions": ["1.14","1.15","1.16","1.17","1.18"]
   },
   {
     "curseId": 305211,
@@ -309,7 +309,7 @@
     "curseSlug": "auto-plant",
     "githubId": "AutoPlant",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/369/905/64/64/637539779714479927.png",
-    "versions": ["1.16","1.17"]
+    "versions": ["1.16","1.17","1.18"]
   },
   {
     "curseId": 444242,

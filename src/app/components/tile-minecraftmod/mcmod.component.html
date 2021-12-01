@@ -15,17 +15,9 @@
   </a>
   
   <div class='mod-versions'>
-    <a mat-icon-button *ngIf="mod.versions.includes('1.7.10');" class="version-17"
+    <a mat-icon-button *ngIf="mod.versions.includes('1.7.10');" class="version-17 desktop-only"
       target='curse'
       href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A4449'>
-      <!-- <mat-icon>get_app</mat-icon> -->
-      <span class="material-icons"> 
-        get_app
-        </span>
-    </a>
-    <a mat-icon-button *ngIf="mod.versions.includes('1.10');" class="version-110"
-      target='curse'
-      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=2020709689%3A6170'>
       <mat-icon>get_app</mat-icon>
     </a>
     <a mat-icon-button *ngIf="mod.versions.includes('1.12');" class="version-112"
@@ -45,12 +37,17 @@
     </a> -->
     <a mat-icon-button *ngIf="mod.versions.includes('1.16');" class="version-116"
       target='curse'
-      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A7088'>
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A70886'>
       <mat-icon>get_app</mat-icon>
     </a>
-    <a mat-icon-button *ngIf="mod.versions.includes('1.17');" class="version-117"
+    <a mat-icon-button *ngIf="mod.versions.includes('1.17');" class="version-117 desktop-only"
       target='curse'
-      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A7088'>
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A73242'>
+      <mat-icon>get_app</mat-icon>
+    </a>
+    <a mat-icon-button *ngIf="mod.versions.includes('1.18');" class="version-118"
+      target='curse'
+      href='https://www.curseforge.com/minecraft/mc-mods/{{ mod.curseSlug }}/files/all?filter-status=1&filter-game-version=1738749986%3A73250'>
       <mat-icon>get_app</mat-icon>
     </a>
   </div>

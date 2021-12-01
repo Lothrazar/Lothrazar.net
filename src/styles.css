@@ -35,23 +35,8 @@
   color: white;
 }
 
-.version-110 {
-  background: #5E351E;
-  color: white;
-}
-
 .version-112 {
   background: #203B91;
-  color: white;
-}
-
-.version-114 {
-  background: #5D7C15;
-  color: white;
-}
-
-.version-115 {
-  background: #9F5DAD;
   color: white;
 }
 
@@ -65,3 +50,7 @@
   color: white;
 }
 
+.version-118 {
+  background: #5D7C15;
+  color: white;
+}
