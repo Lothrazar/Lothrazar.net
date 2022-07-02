@@ -5,7 +5,7 @@
     "curseSlug": "absent-by-design",
     "githubId": "AbsentByDesign",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/694/64/64/637263088543870771.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 320757,
@@ -13,7 +13,7 @@
     "curseSlug": "anti-bonemeal",
     "githubId": "AntiBonemeal",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/202/144/64/64/636924514898907681.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 348584,
@@ -21,7 +21,7 @@
     "curseSlug": "auto-sprint",
     "githubId": "AutoRun",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/275/671/64/64/637263031852493162.png",
-    "versions": ["1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 305211,
@@ -45,7 +45,7 @@
     "curseSlug": "block-layers",
     "githubId": "DecoLayers",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/676/64/64/637263042379613423.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 333828,
@@ -53,7 +53,7 @@
     "curseSlug": "cannot-build-over-lava-source-blocks",
     "githubId": "NoLavaBuild",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/217/140/64/64/637005603619861416.png",
-    "versions": ["1.12" ,"1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.12" ,"1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 239286,
@@ -69,7 +69,7 @@
     "curseSlug": "forge-creeper-heal-unofficial",
     "githubId": "ForgeCreeperHeal",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/44/324/64/64/636030538249856506.jpeg",
-    "versions": ["1.10","1.12", "1.16","1.17","1.18"]
+    "versions": ["1.10","1.12", "1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 332609,
@@ -85,7 +85,7 @@
     "curseSlug": "fragile-torches",
     "githubId": "FragileTorches",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/19/907/64/64/635703545652356785.png",
-    "versions": ["1.7.10","1.10","1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.7.10","1.10","1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 351990,
@@ -93,7 +93,7 @@
     "curseSlug": "gardening-tools",
     "githubId": "GardenTools",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/679/64/64/637263044524248183.png",
-    "versions": ["1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 368921,
@@ -101,7 +101,7 @@
     "curseSlug": "glass-cutter",
     "githubId": "GlassCutter",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/697/64/64/637263096369154289.png",
-    "versions": ["1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 307605,
@@ -125,7 +125,7 @@
     "curseSlug": "custom-game-rules",
     "githubId": "CustomGameRules",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/700/64/64/637263098984560016.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 232597,
@@ -141,7 +141,7 @@
     "curseSlug": "nether-portal-grid",
     "githubId": "WorldPortals",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/702/64/64/637263106171402660.png",
-    "versions": ["1.15","1.16","1.17","1.18"]
+    "versions": ["1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 368534,
@@ -149,7 +149,7 @@
     "curseSlug": "let-them-grow",
     "githubId": "LetThemGrow",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/672/64/64/637263032167360885.png",
-    "versions": ["1.15","1.16","1.17","1.18"]
+    "versions": ["1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 232795,
@@ -157,7 +157,7 @@
     "curseSlug": "mounted-pearl-bring-your-mount-along-when-you",
     "githubId": "MountedPearl",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/21/361/64/64/635726408317262610.png",
-    "versions": ["1.7.10","1.10","1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.7.10","1.10","1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 231837,
@@ -213,7 +213,7 @@
     "curseSlug": "roots-classic",
     "githubId": "RootsClassic",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/157/93/64/64/636643301624754170.png",
-    "versions": ["1.12","1.16","1.17","1.18"]
+    "versions": ["1.12","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 232093,
@@ -229,7 +229,7 @@
     "curseSlug": "stronger-farmland",
     "githubId": "StrongerFarmland",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/693/64/64/637263087098134908.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 370777,
@@ -237,7 +237,7 @@
     "curseSlug": "scaffolding-behavior",
     "githubId": "ScaffoldingBehavior",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/675/64/64/637263035858335469.png",
-    "versions": ["1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 358241,
@@ -245,7 +245,7 @@
     "curseSlug": "stupid-horse-stand-still",
     "githubId": "stupidHorseStandStill",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/275/632/64/64/637262902934662148.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 268495,
@@ -261,7 +261,7 @@
     "curseSlug": "similsax-transtructors",
     "githubId": "Similsax-Transtructors",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/24/33/64/64/635751631245606212.png",
-    "versions": ["1.7.10","1.10","1.12","1.14","1.16","1.17","1.18"]
+    "versions": ["1.7.10","1.10","1.12","1.14","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 350696,
@@ -277,7 +277,7 @@
     "curseSlug": "tamedrespawn",
     "githubId": "TamedRespawn",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/206/810/64/64/636960846730644057.png",
-    "versions": ["1.12","1.16","1.17","1.18"]
+    "versions": ["1.12","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 368728,
@@ -285,7 +285,7 @@
     "curseSlug": "unbreakable-spawner",
     "githubId": "UnbreakableSpawner",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/255/951/64/64/637203453808908601.png",
-    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18"]
+    "versions": ["1.12","1.14","1.15","1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 412686,
@@ -309,7 +309,7 @@
     "curseSlug": "auto-plant",
     "githubId": "AutoPlant",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/369/905/64/64/637539779714479927.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 444242,
@@ -317,7 +317,7 @@
     "curseSlug": "nuts-and-fruit",
     "githubId": "NutsAndFruit",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/369/903/64/64/637539776315664575.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 448470,
@@ -325,7 +325,7 @@
     "curseSlug": "fix-my-minecart",
     "githubId": "PhantomMinecart",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/369/909/64/64/637539783271046896.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 452000,
@@ -333,7 +333,7 @@
     "curseSlug": "plain-grinder",
     "githubId": "PlainGrinder",
     "logo":"https://media.forgecdn.net/avatars/thumbnails/350/849/64/64/637504419760179318.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 463775,
@@ -349,7 +349,7 @@
     "curseSlug": "heart-balance",
     "githubId": "HeartBalance",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/367/803/64/64/637535104172414370.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 469301,
@@ -357,7 +357,7 @@
     "curseSlug": "villager-tools",
     "githubId": "VillagerTools",
     "logo": "https://media.forgecdn.net/avatars/thumbnails/368/655/64/64/637537091964088679.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   },
   {
     "curseId": 453072,
@@ -372,6 +372,6 @@
     "curseSlug": "runes",
     "githubId": "EnchantingRunes",
     "logo": "https://media.forgecdn.net/avatars/421/247/637648617776427047.png",
-    "versions": ["1.16","1.17","1.18"]
+    "versions": ["1.16","1.17","1.18","1.19"]
   }
 ]
